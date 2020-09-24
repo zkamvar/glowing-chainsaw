@@ -88,9 +88,18 @@ Good
 
  ::: callout
  
- Bad
+ Bad (space before opening tag)
  
  :::::::::::
+ 
+:::: callout
+Good (but not preferred)
+
+::::::::::::
+
+:::: callout
+Bad (closing tag is not processed)
+::::::::::::
 ```
 
 ::::::::::::::::::::::::::::::::::::::::::::::

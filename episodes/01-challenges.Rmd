@@ -34,3 +34,23 @@ The nested challenge and solution blocks have been an integral part of The
 Carpentries for quite a while and the provide a low-stakes way for learners to
 test their knowledge. 
 
+# Preview/Reference
+
+This nested challenge/solution block:
+
+```{r dovetail, child = "files/div-challenge.Rmd", echo = FALSE, results = 'asis'}
+```
+
+Can be generated three ways:
+
+### HTML div
+
+![](fig/div-simple.png)
+
+### Via the {dovetail} package
+
+![](fig/dovetail-simple.png)
+
+### Via pandoc fenced divs
+
+![](fig/fenced-div-simple.png)

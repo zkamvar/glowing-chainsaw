@@ -29,10 +29,12 @@ branch: main
 contact: zkamvar@carpentries.org
 
 # Rearrange this schedule to match your lesson
-schedule:
+schedule: 
 - 01-challenges.Rmd
 - 02-jekyll-challenge-blocks.Rmd
 - 03-div-challenge-blocks.Rmd
 - 04-dovetail-challenge-blocks.Rmd
 - 05-fenced-div-challenge-blocks.Rmd
+- 06-simple-nested.Rmd
+- 07-complex-nested.Rmd
 

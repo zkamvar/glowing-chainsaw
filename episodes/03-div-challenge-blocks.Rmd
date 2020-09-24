@@ -76,18 +76,18 @@ Good
 
 <div class = 'callout'>
 
-Bad
+Bad (space between `=`)
 
 </div>
 
     <div class='callout'>
     
-    Bad
+    Bad (will be processed as a code block)
     
     </div>
     
 <div class='callout'>
-Bad
+Bad (no space between tags and markdown)
 </div>
 ```
 

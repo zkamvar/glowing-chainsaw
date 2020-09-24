@@ -1,0 +1,44 @@
+---
+title: "Simple nested Challenge"
+teaching: 1
+exercises: 5
+---
+
+:::::::::::::::::::::: questions ::::::::::::
+
+ - Which method do you prefer?
+
+:::::::::::::::::::::::::::::::::::::::::::::
+
+
+# You try it!
+
+:::::::::::::::::: challenge
+
+## YOUR FIRST CHALLENGE
+
+Create the following nested challenge using [`<div>`](03-div-challenge-blocks.html) tags, [{dovetail}](04-dovetail-challenge-blocks.html), and [fenced divs](05-fenced-div-challenge-blocks.html):
+
+::::::::::::::::::::::::::::
+
+
+
+::::::::::::::::::::::::::::::::::::::::: challenge
+
+## Challenge
+
+Use the `paste()` function to concatenate the strings "hello" and "there" in R
+
+::::::::::::::::::::: solution
+
+## Solution
+
+```{r}
+paste("hello", "there")
+```
+
+::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
