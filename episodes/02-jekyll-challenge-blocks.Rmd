@@ -1,0 +1,44 @@
+---
+title: "Jekyll Challenge Blocks"
+teaching: 5
+exercises: 0
+---
+
+:::::::::::::::::: questions ::::::::::::::
+
+ - How is a jekyll block quote defined?
+
+:::::::::::::::::::::::::::::::::::::::::::
+
+
+# Challenge block Jekyll
+
+:::::::::::::::::::::::::::: prereq
+
+## Formatting
+
+Jekyll challenge blocks are formatted as [block quotes](https://kramdown.gettalong.org/quickref.html#blockquotes) with [class 
+attributes appended](https://kramdown.gettalong.org/quickref.html#block-attributes).
+
+The syntax of these block quotes is described in [the formatting episode of our
+lesson example](https://carpentries.github.io/lesson-example/04-formatting/index.html#special-blockquotes).
+
+:::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::: callout
+## Move along!
+
+We will not be practicing Jekyll-formatted blocks for this lesson.
+:::::::::::::::::::::::::::::
+
+# Example
+
+The following code generates a solution block quotes nested inside of a challenge
+block quote.
+
+![Example of Jekyll markdown specifying a challenge and solution in python](fig/jekyll-simple.png)
+
+
+```{r rendered, child = "files/div-challenge.Rmd", echo = FALSE, results = 'asis'}
+```
+

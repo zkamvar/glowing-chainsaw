@@ -1,0 +1,17 @@
+> ## Challenge
+>
+> Use the `+` operator to concatenate the strings "hello " and "there" in python
+>
+> > ## Solution
+> >
+> > ~~~
+> > "hello " + "there"
+> > ~~~
+> > {: .language-python}
+> > 
+> > ~~~
+> > "hello there"
+> > ~~~
+> > {: .output}
+> {: .solution}
+{: .challenge}

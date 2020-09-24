@@ -1,0 +1,106 @@
+---
+title: "Fenced Div Challenge Blocks"
+teaching: 5
+exercises: 0
+---
+
+:::::::::::::::::: questions ::::::::::::::
+
+ - How is a block defined with fenced divs?
+
+:::::::::::::::::::::::::::::::::::::::::::
+
+# Challenge block pandoc fenced div
+
+:::::::::::::::::::::::::::::::::::::::::::::: prereq
+
+## Formatting
+
+Fenced divs in [pandoc](https://pandoc.org) have simpler and [more flexible
+syntax](https://pandoc.org/MANUAL.html#divs-and-spans) than HTML div tags. 
+They consist of a series of *at least* 3 colons (`:::`) (followed by a class for
+opening tags) for delimiting blocks.Note that vertical space is not as important
+for these tags as HTML tags are.
+
+### Defining blocks
+
+Blocks are defined by placing a series of *at least* 3 colons (`:::`) on a blank
+line followed by the name of the class. Blocks are closed with *at least* 3 
+colons on a new line. For example:
+
+```markdown
+::: challenge
+
+This is a *challenge*
+
+:::
+
+:::::: callout
+
+This is a *callout*
+
+::::::::::::::
+```
+
+:::::::::::::::::::::: callout
+
+## Tip
+
+The number of colons in the opening tag does not need to match the number of
+colons in the closing tag, but it's a good idea to include enough for visual
+clarity.
+
+::::::::::::::::::::::
+
+
+### Nesting blocks
+
+Blocks are nested similar to div tags in that you can open a new tag in an 
+already open block to nest. For example:
+
+```markdown
+::::::::::::::::::::::::::::::::::::::::::::: challenge
+
+This is a *challenge*
+
+:::::::::::::::::::::: callout
+
+This is a *callout* inside a *challenge*
+
+::::::::::::::::::::::::::::::
+
+This is a *challenge* again
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+```
+
+### What to watch out for 
+
+Make sure your colons always start at the beginning of the line. 
+
+```markdown
+
+::: callout
+
+Good
+
+::::::::::::
+
+ ::: callout
+ 
+ Bad
+ 
+ :::::::::::
+```
+
+::::::::::::::::::::::::::::::::::::::::::::::
+
+
+# Example
+
+This example shows a nested solution inside of a challenge block
+
+![Example of markdown with fenced div blocks from pandoc specifying a challenge and solution block](fig/fenced-div-simple.png)
+
+```{r fenced-div, child = "files/fenced-div-challenge.Rmd", echo = FALSE, results = 'asis'}
+```

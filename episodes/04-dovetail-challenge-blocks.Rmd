@@ -1,0 +1,80 @@
+---
+title: "{dovetail} Challenge Blocks"
+teaching: 5
+exercises: 0
+---
+
+:::::::::::::::::: questions ::::::::::::::
+
+ - How is a block defined with {dovetail}?
+
+:::::::::::::::::::::::::::::::::::::::::::
+
+# Challenge block {dovetail}
+
+:::::::::::::::::::::::::::::::::::::::::::::: prereq
+
+## Formatting
+
+The [{dovetail}](https://github.com/carpentries/dovetail#readme) syntax provides
+a way to write div tags inside of code blocks prefixed by a special comment
+character (`#' `). 
+
+### Defining blocks
+
+Blocks are defined like RMarkdown code chunks, starting with three backtics
+followed by the type of block in curly braces (```` ```{type} ````). Blocks are
+closed with three backtics on a new line: ```` ``` ````. For example
+
+`````{r catchal1, echo = FALSE, results = 'asis'}
+cat("````markdown\n```{challenge}
+#' This is a *challenge*\n```\n\n```{callout}
+#' This is a *callout*\n```\n````")
+`````
+
+ Code is treated as a special entity in the blocks and does not
+necessarily need to be preceded by `#' ` to allow for syntax highlighting in 
+most editors.
+
+#### Nesting blocks
+
+To nest a block, you should include it in the block as `#' @type Title` where
+`@type` is the type of block and `Title` is a header associated with that block.
+For example, `#' @solution Precipitate` will start a new solution block inside of
+the current block with the title "Precipitate". 
+
+If there is no more content after the nested block, it will be closed
+automatically at the end of the chunk and nothing more is required on your part.
+If you need to include more prose in the outer block, then you can close a 
+nested block with `#' @end`
+
+
+`````{r catchal, echo = FALSE, results = 'asis'}
+cat("````markdown\n```{challenge}
+#' This is a *challenge*
+#'
+#' @callout
+#'
+#' This is a *callout* inside a *challenge*
+#'
+#' @end
+#'
+#' This is a *challenge* again
+```\n````")
+`````
+
+### What to watch out for
+
+This has not been WIDELY tested, so let us know what you find!
+
+::::::::::::::::::::::::::::::::::::::::::::::
+
+# Example
+
+Below is an example of the {dovetail} syntax generating a code chunk.
+
+![Example of RMarkdown with {dovetail} specifying a challenge and solution block](fig/dovetail-simple.png)
+
+
+```{r dovetail, child = "files/dovetail-challenge.Rmd", echo = FALSE, results = 'asis'}
+```

@@ -10,7 +10,7 @@
 carpentry: cp
 
 # Overall title for pages.
-title: Lesson Title
+title: Testing Challenge Blocks
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
@@ -20,7 +20,7 @@ life_cycle: pre-alpha
 license: CC-BY 4.0
 
 # Link to the source repository for this lesson
-source: https://github.com/carpentries/sandpaper
+source: https://github.com/zkamvar/glowing-chainsaw
 
 # Default branch of your lesson
 branch: main
@@ -30,3 +30,9 @@ contact: team@carpentries.org
 
 # Rearrange this schedule to match your lesson
 schedule: 
+- 01-challenges.Rmd
+- 02-jekyll-challenge-blocks.Rmd
+- 03-div-challenge-blocks.Rmd
+- 04-dovetail-challenge-blocks.Rmd
+- 05-fenced-div-challenge-blocks.Rmd
+

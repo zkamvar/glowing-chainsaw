@@ -1,0 +1,19 @@
+```{r setup-dt, include = FALSE}
+library(dovetail)
+```
+
+```{challenge}
+#' ## Challenge
+#' 
+#' Use the `+` operator to concatenate the strings "hello " and "there" in python
+#' 
+#' @solution Solution
+#' 
+#' ```python
+"hello " + "there"
+#' ```
+#'
+#' ```output
+"hello there"
+#' ```
+```
