@@ -1,0 +1,20 @@
+<div class='challenge'>
+
+## Challenge
+
+Use the `+` operator to concatenate the strings "hello " and "there" in python
+
+<div class='solution'>
+
+## Solution
+
+```python
+"hello " + "there"
+```
+
+```output
+"hello there"
+```
+
+</div>
+</div>
