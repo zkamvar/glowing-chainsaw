@@ -8,11 +8,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta http-equiv="last-modified" content="2020-09-25 00:07:47 +0000">
+<meta http-equiv="last-modified" content="2020-09-28 17:29:19 +0000">
 
 
 
-<title>Testing Lesson Blocks: HTML `<div>` challenge blocks</title>
+<title>Testing Challenge Blocks: Reference: HTML `<div>` Challenge Blocks</title>
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/cp/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/cp/apple-touch-icon-114x114.png" />
@@ -28,7 +28,7 @@
 <link rel="icon" type="image/png" href="favicons/cp/favicon-16x16.png" sizes="16x16" />
 <link rel="icon" type="image/png" href="favicons/cp/favicon-128.png" sizes="128x128" />
 
-<meta name="application-name" content="The Carpentries - Testing Lesson Blocks"/>
+<meta name="application-name" content="The Carpentries - Testing Challenge Blocks"/>
 
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="favicons/cp/mstile-144x144.png" />
@@ -74,7 +74,7 @@
 
 
 
-<meta property="og:title" content="HTML `<div>` challenge blocks" />
+<meta property="og:title" content="Reference: HTML `<div>` Challenge Blocks" />
 
 
 
@@ -128,22 +128,22 @@
       <a href="01-challenges.html">Overview</a>
     </li>
     <li>
-      <a href="02-jekyll-challenge-blocks.html">Jekyll Challenge Blocks</a>
+      <a href="02-jekyll-challenge-blocks.html">Reference: Jekyll Challenge Blocks</a>
     </li>
     <li>
-      <a href="03-div-challenge-blocks.html">HTML `&lt;div&gt;` challenge blocks</a>
+      <a href="03-div-challenge-blocks.html">Reference: HTML `&lt;div&gt;` Challenge Blocks</a>
     </li>
     <li>
-      <a href="04-dovetail-challenge-blocks.html">{dovetail} Challenge Blocks</a>
+      <a href="04-dovetail-challenge-blocks.html">Reference: {dovetail} Challenge Blocks</a>
     </li>
     <li>
-      <a href="05-fenced-div-challenge-blocks.html">Fenced Div Challenge Blocks</a>
+      <a href="05-fenced-div-challenge-blocks.html">Reference: Fenced Div Challenge Blocks</a>
     </li>
     <li>
-      <a href="06-simple-nested.html">Simple nested Challenge</a>
+      <a href="06-simple-nested.html">Challenge: Simple Nested</a>
     </li>
     <li>
-      <a href="07-complex-nested.html">Complex Nested Challenge</a>
+      <a href="07-complex-nested.html">Challenge: Complex Nested</a>
     </li>
   </ul>
 </li>
@@ -177,10 +177,11 @@
 <div class="row">
   <div class="contents col-md-9">
     <div class="page-header">
-      <h1>HTML `&lt;div&gt;` challenge blocks</h1>
+      <h1>Reference: HTML `&lt;div&gt;` Challenge Blocks</h1>
     </div>
 
-<div class="questions">
+<div id="questions" class="section level2 questions">
+<h2>Questions</h2>
 <ul>
 <li>How is a block defined with <code>&lt;div&gt;</code> tags?</li>
 </ul>
@@ -195,56 +196,72 @@
 <p>The type of block is determined by the <code>class</code> flag. <strong>All div tags must have a closing tag</strong> that is formatted exactly like this: <code>&lt;/div&gt;</code>. For example:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a></span>
-<span id="cb1-3"><a href="#cb1-3"></a>This is a *challenge*</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">## Challenge</span></span>
 <span id="cb1-4"><a href="#cb1-4"></a></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;callout&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a></span>
-<span id="cb1-8"><a href="#cb1-8"></a>This is a *callout*</span>
+<span id="cb1-5"><a href="#cb1-5"></a>This is a *challenge*</span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;callout&#39;</span><span class="kw">&gt;</span></span>
 <span id="cb1-9"><a href="#cb1-9"></a></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="fu">## Callout</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a></span>
+<span id="cb1-12"><a href="#cb1-12"></a>This is a *callout*</span>
+<span id="cb1-13"><a href="#cb1-13"></a></span>
+<span id="cb1-14"><a href="#cb1-14"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
 </div>
 <div id="nesting-blocks" class="section level3">
 <h3>Nesting blocks</h3>
 <p>To nest div tags, open a new div tag without closing the previous tag. If an opening tag does not have a matching closing (<code>&lt;/div&gt;</code>) tag, then it is still open and your prose is still within that block.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a></span>
-<span id="cb2-3"><a href="#cb2-3"></a>This is a *challenge*</span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="fu">## Challenge</span></span>
 <span id="cb2-4"><a href="#cb2-4"></a></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;callout&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a>This is a *challenge*</span>
 <span id="cb2-6"><a href="#cb2-6"></a></span>
-<span id="cb2-7"><a href="#cb2-7"></a>This is a *callout* inside a *challenge*</span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;callout&#39;</span><span class="kw">&gt;</span></span>
 <span id="cb2-8"><a href="#cb2-8"></a></span>
-<span id="cb2-9"><a href="#cb2-9"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb2-9"><a href="#cb2-9"></a><span class="fu">## Callout</span></span>
 <span id="cb2-10"><a href="#cb2-10"></a></span>
-<span id="cb2-11"><a href="#cb2-11"></a>This is a *challenge* again</span>
+<span id="cb2-11"><a href="#cb2-11"></a>This is a *callout* inside a *challenge*</span>
 <span id="cb2-12"><a href="#cb2-12"></a></span>
-<span id="cb2-13"><a href="#cb2-13"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
+<span id="cb2-13"><a href="#cb2-13"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb2-14"><a href="#cb2-14"></a></span>
+<span id="cb2-15"><a href="#cb2-15"></a>This is a *challenge* again</span>
+<span id="cb2-16"><a href="#cb2-16"></a></span>
+<span id="cb2-17"><a href="#cb2-17"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
 </div>
 <div id="what-to-watch-out-for" class="section level3">
 <h3>What to watch out for</h3>
 <p>Be careful with indentation because markdown recognizes anything indented with four spaces as code. Additionally, make sure you closing div tags start with a slash and that there is no space between the <code>=</code> sign:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;callout&#39;</span><span class="kw">&gt;</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a></span>
-<span id="cb3-3"><a href="#cb3-3"></a>Good</span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="fu">## Callout</span></span>
 <span id="cb3-4"><a href="#cb3-4"></a></span>
-<span id="cb3-5"><a href="#cb3-5"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a>Good</span>
 <span id="cb3-6"><a href="#cb3-6"></a></span>
-<span id="cb3-7"><a href="#cb3-7"></a><span class="kw">&lt;div</span><span class="ot"> class</span> <span class="ot">=</span> <span class="st">&#39;callout&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb3-7"><a href="#cb3-7"></a><span class="kw">&lt;/div&gt;</span></span>
 <span id="cb3-8"><a href="#cb3-8"></a></span>
-<span id="cb3-9"><a href="#cb3-9"></a>Bad (space between <span class="in">`=`</span>)</span>
+<span id="cb3-9"><a href="#cb3-9"></a><span class="kw">&lt;div</span><span class="ot"> class</span> <span class="ot">=</span> <span class="st">&#39;callout&#39;</span><span class="kw">&gt;</span></span>
 <span id="cb3-10"><a href="#cb3-10"></a></span>
-<span id="cb3-11"><a href="#cb3-11"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11"></a><span class="fu">## Callout</span></span>
 <span id="cb3-12"><a href="#cb3-12"></a></span>
-<span id="cb3-13"><a href="#cb3-13"></a><span class="in">    &lt;div class=&#39;callout&#39;&gt;</span></span>
-<span id="cb3-14"><a href="#cb3-14"></a><span class="in">    </span></span>
-<span id="cb3-15"><a href="#cb3-15"></a><span class="in">    Bad (will be processed as a code block)</span></span>
-<span id="cb3-16"><a href="#cb3-16"></a><span class="in">    </span></span>
-<span id="cb3-17"><a href="#cb3-17"></a><span class="in">    &lt;/div&gt;</span></span>
-<span id="cb3-18"><a href="#cb3-18"></a><span class="in">    </span></span>
-<span id="cb3-19"><a href="#cb3-19"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;callout&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb3-20"><a href="#cb3-20"></a>Bad (no space between tags and markdown)</span>
-<span id="cb3-21"><a href="#cb3-21"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
+<span id="cb3-13"><a href="#cb3-13"></a>Bad (space between <span class="in">`=`</span>)</span>
+<span id="cb3-14"><a href="#cb3-14"></a></span>
+<span id="cb3-15"><a href="#cb3-15"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb3-16"><a href="#cb3-16"></a></span>
+<span id="cb3-17"><a href="#cb3-17"></a><span class="in">    &lt;div class=&#39;callout&#39;&gt;</span></span>
+<span id="cb3-18"><a href="#cb3-18"></a></span>
+<span id="cb3-19"><a href="#cb3-19"></a><span class="in">    ## Callout</span></span>
+<span id="cb3-20"><a href="#cb3-20"></a><span class="in">    </span></span>
+<span id="cb3-21"><a href="#cb3-21"></a><span class="in">    Bad (will be processed as a code block)</span></span>
+<span id="cb3-22"><a href="#cb3-22"></a><span class="in">    </span></span>
+<span id="cb3-23"><a href="#cb3-23"></a><span class="in">    &lt;/div&gt;</span></span>
+<span id="cb3-24"><a href="#cb3-24"></a><span class="in">    </span></span>
+<span id="cb3-25"><a href="#cb3-25"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;callout&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb3-26"><a href="#cb3-26"></a><span class="fu">## Callout</span></span>
+<span id="cb3-27"><a href="#cb3-27"></a></span>
+<span id="cb3-28"><a href="#cb3-28"></a>Bad (no space between tags and markdown)</span>
+<span id="cb3-29"><a href="#cb3-29"></a><span class="kw">&lt;/div&gt;</span></span></code></pre></div>
 </div>
 </div>
 </div>
@@ -292,7 +309,7 @@
       </h3>
     </div>
     <div class="col-xs-10">
-      <h3 class="maintitle"><a href="index.html">Testing Lesson Blocks</a></h3>
+      <h3 class="maintitle"><a href="index.html">Testing Challenge Blocks</a></h3>
     </div>
     <div class="col-xs-1">
       <h3 class="text-right">
@@ -317,7 +334,7 @@
       /
       <a href="https://github.com/zkamvar/glowing-chainsaw/blob/main/CITATION" data-checker-ignore>Cite</a>
       /
-      <a href="mailto:team@carpentries.org">Contact</a>
+      <a href="mailto:zkamvar@carpentries.org">Contact</a>
     </div>
   </div>
   <div class="row">

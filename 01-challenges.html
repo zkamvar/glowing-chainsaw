@@ -8,11 +8,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta http-equiv="last-modified" content="2020-09-25 00:07:47 +0000">
+<meta http-equiv="last-modified" content="2020-09-28 17:29:19 +0000">
 
 
 
-<title>Testing Lesson Blocks: Overview</title>
+<title>Testing Challenge Blocks: Overview</title>
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/cp/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/cp/apple-touch-icon-114x114.png" />
@@ -28,7 +28,7 @@
 <link rel="icon" type="image/png" href="favicons/cp/favicon-16x16.png" sizes="16x16" />
 <link rel="icon" type="image/png" href="favicons/cp/favicon-128.png" sizes="128x128" />
 
-<meta name="application-name" content="The Carpentries - Testing Lesson Blocks"/>
+<meta name="application-name" content="The Carpentries - Testing Challenge Blocks"/>
 
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="favicons/cp/mstile-144x144.png" />
@@ -128,22 +128,22 @@
       <a href="01-challenges.html">Overview</a>
     </li>
     <li>
-      <a href="02-jekyll-challenge-blocks.html">Jekyll Challenge Blocks</a>
+      <a href="02-jekyll-challenge-blocks.html">Reference: Jekyll Challenge Blocks</a>
     </li>
     <li>
-      <a href="03-div-challenge-blocks.html">HTML `&lt;div&gt;` challenge blocks</a>
+      <a href="03-div-challenge-blocks.html">Reference: HTML `&lt;div&gt;` Challenge Blocks</a>
     </li>
     <li>
-      <a href="04-dovetail-challenge-blocks.html">{dovetail} Challenge Blocks</a>
+      <a href="04-dovetail-challenge-blocks.html">Reference: {dovetail} Challenge Blocks</a>
     </li>
     <li>
-      <a href="05-fenced-div-challenge-blocks.html">Fenced Div Challenge Blocks</a>
+      <a href="05-fenced-div-challenge-blocks.html">Reference: Fenced Div Challenge Blocks</a>
     </li>
     <li>
-      <a href="06-simple-nested.html">Simple nested Challenge</a>
+      <a href="06-simple-nested.html">Challenge: Simple Nested</a>
     </li>
     <li>
-      <a href="07-complex-nested.html">Complex Nested Challenge</a>
+      <a href="07-complex-nested.html">Challenge: Complex Nested</a>
     </li>
   </ul>
 </li>
@@ -180,20 +180,41 @@
       <h1>Overview</h1>
     </div>
 
-<div class="questions">
+<div id="questions" class="section level2 questions">
+<h2>Questions</h2>
 <ul>
 <li>What system of content generation seems easier to use for you?</li>
 <li>How easy will it be to explain this to a newcomer?</li>
 <li>What questions do you have for us?</li>
 </ul>
 </div>
-<div id="before-we-start" class="section level1">
-<h1>Before we start</h1>
-<p>This vignette is strictly temporary. The goal of this is to present three potential ways of creating content blocks for rendering specialized sections in the new Carpentries lesson template. Your feedback will help us understand how comfortable our maintainers are with each of these formats so that we can choose one that we will use as our recommendation for creating these blocks.</p>
+<div id="instructions" class="section level2 prereq">
+<h2>Instructions</h2>
+<p>You will test out three methods of creating challenge/solution blocks and fill out a short survey related to their ease use. (estimated time: 15 minutes)</p>
+<p>This website contains reference pages for each of the syntaxes as well as two pages containing challenges for you.</p>
+<ol style="list-style-type: decimal">
+<li>Please go to <a href="https://forms.gle/dFD9Xs2cNw8qnKts5" class="uri">https://forms.gle/dFD9Xs2cNw8qnKts5</a> and follow the instructions</li>
+<li>Briefly examine <a href="#preview-reference">the three candidate syntaxes</a> and rank them in the survey</li>
+<li>Open your favorite text editor and test out the three syntaxes for both <a href="06-simple-nested.html">Simple Nested Challenge</a> and <a href="07-complex-nested.html">Complex Nested Challenge</a></li>
+<li>Paste your answers in the survey</li>
+<li>Answer the post-challenge questions in the survey</li>
+</ol>
 </div>
 <div id="background" class="section level1">
 <h1>Background</h1>
 <p>The nested challenge and solution blocks have been an integral part of The Carpentries for quite a while and the provide a low-stakes way for learners to test their knowledge.</p>
+<div class="challenge">
+<div id="test-your-knowledge" class="section level2">
+<h2>Test your knowledge!</h2>
+<p>How are challenge and solution blocks created with the current <em>Jekyll</em>-based lesson template?</p>
+</div>
+<div id="solution" class="section level2 solution">
+<h2>Solution</h2>
+<p>The challenge and solution blocks were created using <a href="02-jekyll-challenge-blocks.html">nested block quotes with class attributes</a>:</p>
+<p><img src="fig/jekyll-simple.png" /></p>
+</div>
+</div>
+<p>The goal of this lesson is to present three potential ways of creating content blocks for rendering specialized sections in the new Carpentries lesson template. <strong>Your feedback will help us understand how comfortable our maintainers will be with each of these formats</strong> so that we can choose one that we will use as our recommendation for creating these blocks.</p>
 </div>
 <div id="previewreference" class="section level1">
 <h1>Preview/Reference</h1>
@@ -203,7 +224,7 @@
 <h2>Challenge</h2>
 <p>Use the <code>+</code> operator to concatenate the strings “hello” and “there” in python</p>
 </div>
-<div id="solution" class="section level2 solution">
+<div id="solution-1" class="section level2 solution">
 <h2>Solution</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">&quot;hello &quot;</span> <span class="op">+</span> <span class="st">&quot;there&quot;</span></span></code></pre></div>
 <pre class="output"><code>&quot;hello there&quot;</code></pre>
@@ -212,15 +233,15 @@
 <p>Can be generated three ways:</p>
 <div id="html-div" class="section level3">
 <h3>HTML div</h3>
-<p><img src="fig/div-simple.png" /></p>
+<p><a href="03-div-challenge-blocks.html"><img src="fig/div-simple.png" /></a></p>
 </div>
 <div id="via-the-dovetail-package" class="section level3">
 <h3>Via the {dovetail} package</h3>
-<p><img src="fig/dovetail-simple.png" /></p>
+<p><a href="04-dovetail-challenge-blocks.html"><img src="fig/dovetail-simple.png" /></a></p>
 </div>
 <div id="via-pandoc-fenced-divs" class="section level3">
 <h3>Via pandoc fenced divs</h3>
-<p><img src="fig/fenced-div-simple.png" /></p>
+<p><a href="05-fenced-div-challenge-blocks.html"><img src="fig/fenced-div-simple.png" /></a></p>
 </div>
 </div>
 
@@ -248,7 +269,7 @@
       </h3>
     </div>
     <div class="col-xs-10">
-      <h3 class="maintitle"><a href="index.html">Testing Lesson Blocks</a></h3>
+      <h3 class="maintitle"><a href="index.html">Testing Challenge Blocks</a></h3>
     </div>
     <div class="col-xs-1">
       <h3 class="text-right">
@@ -273,7 +294,7 @@
       /
       <a href="https://github.com/zkamvar/glowing-chainsaw/blob/main/CITATION" data-checker-ignore>Cite</a>
       /
-      <a href="mailto:team@carpentries.org">Contact</a>
+      <a href="mailto:zkamvar@carpentries.org">Contact</a>
     </div>
   </div>
   <div class="row">
