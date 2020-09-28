@@ -1,6 +1,6 @@
 branch <- "gh-pages"
 remote <- "origin"
-msg    <- "semi-automated update of gh-pages"
+commit_message <- "semi-automated update of gh-pages"
 git    <- pkgdown:::git
 
 dest_dir <- fs::dir_create(fs::file_temp())
