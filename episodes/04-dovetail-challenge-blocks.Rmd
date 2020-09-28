@@ -1,10 +1,11 @@
 ---
-title: "{dovetail} Challenge Blocks"
+title: "Reference: {dovetail} Challenge Blocks"
 teaching: 5
 exercises: 0
 ---
 
 :::::::::::::::::: questions ::::::::::::::
+## Questions
 
  - How is a block defined with {dovetail}?
 
@@ -28,7 +29,7 @@ closed with three backtics on a new line: ```` ``` ````. For example
 
 `````{r catchal1, echo = FALSE, results = 'asis'}
 cat("````markdown\n```{challenge}
-#' This is a *challenge*\n```\n\n```{callout}
+#' ## Challenge\n\nThis is a *challenge*\n```\n\n```{callout}\n#' ## Callout\n
 #' This is a *callout*\n```\n````")
 `````
 
@@ -50,7 +51,7 @@ nested block with `#' @end`
 
 
 `````{r catchal, echo = FALSE, results = 'asis'}
-cat("````markdown\n```{challenge}
+cat("````markdown\n```{challenge}\n\n## Challenge
 #' This is a *challenge*
 #'
 #' @callout

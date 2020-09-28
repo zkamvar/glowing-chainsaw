@@ -1,10 +1,12 @@
 ---
-title: "Complex Nested Challenge"
-teaching: 2
+title: "Challenge: Complex Nested"
+teaching: 1
 exercises: 10
 ---
 
 ::::::::::: questions ::::::::::
+
+## Questions
 
  - Which method do you prefer?
 
@@ -13,6 +15,7 @@ exercises: 10
 
 
 :::::::::::::::::: challenge
+
 ## You try it again!
 
 Create the following nested challenge using [`<div>`](03-div-challenge-blocks.html) tags, [{dovetail}](04-dovetail-challenge-blocks.html), and [fenced divs](05-fenced-div-challenge-blocks.html):
@@ -48,7 +51,4 @@ paste0("mono", "rail")
 
 :::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-
 

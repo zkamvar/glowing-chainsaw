@@ -1,10 +1,11 @@
 ---
-title: "HTML `<div>` challenge blocks"
+title: "Reference: HTML `<div>` Challenge Blocks"
 teaching: 5
 exercises: 0
 ---
 
 :::::::::::::::::: questions ::::::::::::::
+## Questions
 
  - How is a block defined with `<div>` tags?
 
@@ -28,10 +29,14 @@ The type of block is determined by the `class` flag. **All div tags must have a 
 ````markdown
 <div class='challenge'>
 
+## Challenge
+
 This is a *challenge*
 
 </div>
 <div class='callout'>
+
+## Callout
 
 This is a *callout*
 
@@ -47,9 +52,13 @@ open and your prose is still within that block.
 ```markdown
 <div class='challenge'>
 
+## Challenge
+
 This is a *challenge*
 
 <div class='callout'>
+
+## Callout
 
 This is a *callout* inside a *challenge*
 
@@ -70,23 +79,31 @@ slash and that there is no space between the `=` sign:
 ```markdown
 <div class='callout'>
 
+## Callout
+
 Good
 
 </div>
 
 <div class = 'callout'>
 
+## Callout
+
 Bad (space between `=`)
 
 </div>
 
     <div class='callout'>
+
+    ## Callout
     
     Bad (will be processed as a code block)
     
     </div>
     
 <div class='callout'>
+## Callout
+
 Bad (no space between tags and markdown)
 </div>
 ```

@@ -1,10 +1,12 @@
 ---
-title: "Simple nested Challenge"
+title: "Challenge: Simple Nested"
 teaching: 1
 exercises: 5
 ---
 
 :::::::::::::::::::::: questions ::::::::::::
+
+## Questions
 
  - Which method do you prefer?
 
@@ -39,6 +41,4 @@ paste("hello", "there")
 
 ::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 

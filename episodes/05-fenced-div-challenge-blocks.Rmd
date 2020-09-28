@@ -1,10 +1,11 @@
 ---
-title: "Fenced Div Challenge Blocks"
+title: "Reference: Fenced Div Challenge Blocks"
 teaching: 5
 exercises: 0
 ---
 
 :::::::::::::::::: questions ::::::::::::::
+## Questions
 
  - How is a block defined with fenced divs?
 
@@ -31,11 +32,15 @@ colons on a new line. For example:
 ```markdown
 ::: challenge
 
+## Challenge
+
 This is a *challenge*
 
 :::
 
 :::::: callout
+
+## Callout
 
 This is a *callout*
 
@@ -61,9 +66,13 @@ already open block to nest. For example:
 ```markdown
 ::::::::::::::::::::::::::::::::::::::::::::: challenge
 
+## Challenge
+
 This is a *challenge*
 
 :::::::::::::::::::::: callout
+
+## Callout
 
 This is a *callout* inside a *challenge*
 
@@ -82,22 +91,30 @@ Make sure your colons always start at the beginning of the line.
 
 ::: callout
 
+## Callout
+
 Good
 
 ::::::::::::
 
  ::: callout
+
+ ## Callout
  
  Bad (space before opening tag)
  
  :::::::::::
  
 :::: callout
+## Callout
+
 Good (but not preferred)
 
 ::::::::::::
 
 :::: callout
+## Callout
+
 Bad (closing tag is not processed)
 ::::::::::::
 ```

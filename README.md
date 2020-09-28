@@ -8,12 +8,11 @@ featured in Carpentries lessons.
 ## Instructions
 
 We have devised three potential candidates for replacing the blockquote syntax 
-and would like ranked feedback on the syntax you prefer after completing three
+and would like ranked feedback on the syntax you prefer after completing two 
 tasks with all three of the candidate syntaxes:
  
  1. re-generate a simple example challenge/solution block
  2. re-generate a complex example challenge/solution block
- 3. convert a code block from an established lesson to your preferred syntax
  
 :::::::::::::::::
 
@@ -24,7 +23,7 @@ tasks with all three of the candidate syntaxes:
 
 We do not expect you to render these on your own. Please edit these on your own
 computer with the editor you feel most comfortable with and then submit them
-in the google form. 
+in [the google form](https://forms.gle/dFD9Xs2cNw8qnKts5). 
 
 ::::::::::::::::::::::
 
