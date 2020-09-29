@@ -19,7 +19,11 @@ exercises: 5
 
 ## YOUR FIRST CHALLENGE
 
-Create the following nested challenge using [`<div>`](03-div-challenge-blocks.html) tags, [{dovetail}](04-dovetail-challenge-blocks.html), and [fenced divs](05-fenced-div-challenge-blocks.html):
+Create the following nested challenge using [`<div>`](03-div-challenge-blocks.html) tags, [{dovetail}](04-dovetail-challenge-blocks.html), and [fenced divs](05-fenced-div-challenge-blocks.html).
+
+Please place your answers in [this answer sheet](files/challenge-file.Rmd) and
+use the same text editor you would normally use for editing Carpentries lesson
+materials.
 
 ::::::::::::::::::::::::::::
 
