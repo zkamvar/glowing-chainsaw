@@ -33,8 +33,9 @@ pages containing challenges for you.
 
  1. Please go to <https://forms.gle/dFD9Xs2cNw8qnKts5> and follow the instructions
  1. Briefly examine [the three candidate syntaxes](#preview-reference) and rank them in the survey
- 1. Open your favorite text editor and test out the three syntaxes for both [Simple Nested Challenge](06-simple-nested.html) and [Complex Nested Challenge](07-complex-nested.html)
- 1. Paste your answers in the survey
+ 1. Download [this answer document](files/challenge-file.Rmd) and save it to your desktop.
+ 1. Open the answer document in your favorite text editor and test out the three syntaxes for both [Simple Nested Challenge](06-simple-nested.html) and [Complex Nested Challenge](07-complex-nested.html)
+ 1. Copy and paste your answers in the survey (be sure to include the headers)
  1. Answer the post-challenge questions in the survey
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
