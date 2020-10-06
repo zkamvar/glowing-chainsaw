@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta http-equiv="last-modified" content="2020-10-06 21:49:24 +0000">
+<meta http-equiv="last-modified" content="2020-10-06 21:56:28 +0000">
 
 
 
@@ -199,23 +199,22 @@
 <p>Blocks are defined like RMarkdown code chunks, starting with three backtics followed by the type of block in curly braces (<code>```{type}</code>). Blocks are closed with three backtics on a new line: <code>```</code>. For example</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="in">```{challenge}</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="in">#&#39; ## Challenge</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="in">This is a *challenge*</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="in">#&#39;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="in">#&#39; This is a *challenge*</span></span>
 <span id="cb1-5"><a href="#cb1-5"></a><span class="in">```</span></span>
 <span id="cb1-6"><a href="#cb1-6"></a></span>
 <span id="cb1-7"><a href="#cb1-7"></a><span class="in">```{callout}</span></span>
 <span id="cb1-8"><a href="#cb1-8"></a><span class="in">#&#39; ## Callout</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="in">#&#39; This is a *callout*</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="in">```</span></span></code></pre></div>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="in">#&#39; This is a *callout*</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="in">```</span></span></code></pre></div>
 <p>Code is treated as a special entity in the blocks and does not necessarily need to be preceded by <code>#'</code> to allow for syntax highlighting in most editors.</p>
 <div id="nesting-blocks" class="section level4">
 <h4>Nesting blocks</h4>
 <p>To nest a block, you should include it in the block as <code>#' @type Title</code> where <code>@type</code> is the type of block and <code>Title</code> is a header associated with that block. For example, <code>#' @solution Precipitate</code> will start a new solution block inside of the current block with the title “Precipitate”.</p>
 <p>If there is no more content after the nested block, it will be closed automatically at the end of the chunk and nothing more is required on your part. If you need to include more prose in the outer block, then you can close a nested block with <code>#' @end</code></p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1"></a><span class="in">```{challenge}</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="in">## Challenge</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="in">## Challenge</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="in">#&#39;</span></span>
 <span id="cb2-4"><a href="#cb2-4"></a><span class="in">#&#39; This is a *challenge*</span></span>
 <span id="cb2-5"><a href="#cb2-5"></a><span class="in">#&#39;</span></span>
 <span id="cb2-6"><a href="#cb2-6"></a><span class="in">#&#39; @callout</span></span>
