@@ -10,7 +10,58 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-# In progress
+# Results
 
 This page will the results of the survey labelled with participants' unique
-identifiers.
+identifiers. Find your identifier and follow the links to view your results.
+
+
+```{r eps, echo = FALSE, results = 'asis'}
+results <- fs::dir_ls("files", regexp = "survey-")
+pkg <- pkgdown::as_pkgdown(here::here("site"))
+out <- fs::path(pkg$src_path, "built", "assets", "results")
+pkg$dst_path <- fs::path_dir(out)
+if (!fs::dir_exists(out)) fs::dir_create(out)
+
+build_and_link <- function(f, pkg, out) {
+  f <- fs::path_abs(f)
+  md <- sandpaper::build_episode_md(
+    f,
+    hash = tools::md5sum(f),
+    workdir = fs::path_dir(f),
+    outdir = out,
+    quiet = TRUE
+  )
+  sandpaper::build_episode_html(
+    path_md = md,
+    path_src = f,
+    page_back = "08-survey-results.md",
+    page_forward = "index.md",
+    pkg = pkg,
+    quiet = TRUE 
+  )
+  slug  <- sub("survey-", "", fs::path_ext_remove(fs::path_file(f)))
+  mdtxt <- xfun::file_string(md)
+  fnc   <- "`````"
+  txt <- "
+  ## {slug}
+
+  The results for this entry can be found at [survey-{slug}.html](survey-{slug}.html)
+
+  <details>
+  <summary>Click here to see the markdown generated from the entry</summary>
+
+  {fnc}markdown
+  {mdtxt}
+  {fnc}
+
+  </details>
+
+  "
+  glue::glue(txt)
+}
+
+res <- purrr::map_chr(results, ~build_and_link(.x, pkg, out))
+purrr::walk(res, cat)
+```
+
