@@ -29,7 +29,7 @@ closed with three backtics on a new line: ```` ``` ````. For example
 
 `````{r catchal1, echo = FALSE, results = 'asis'}
 cat("````markdown\n```{challenge}
-#' ## Challenge\n\nThis is a *challenge*\n```\n\n```{callout}\n#' ## Callout\n
+#' ## Challenge\n#'\n#' This is a *challenge*\n```\n\n```{callout}\n#' ## Callout
 #' This is a *callout*\n```\n````")
 `````
 
@@ -51,7 +51,8 @@ nested block with `#' @end`
 
 
 `````{r catchal, echo = FALSE, results = 'asis'}
-cat("````markdown\n```{challenge}\n\n## Challenge
+cat("````markdown\n```{challenge}\n## Challenge
+#'
 #' This is a *challenge*
 #'
 #' @callout
