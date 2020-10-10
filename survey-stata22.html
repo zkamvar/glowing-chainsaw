@@ -8,11 +8,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta http-equiv="last-modified" content="2020-10-10 00:15:21 +0000">
+<meta http-equiv="last-modified" content="2020-10-10 00:15:12 +0000">
 
 
 
-<title>Testing Challenge Blocks: Reference: {dovetail} Challenge Blocks</title>
+<title>Testing Challenge Blocks: Results for knibe84</title>
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/cp/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/cp/apple-touch-icon-114x114.png" />
@@ -74,7 +74,7 @@
 
 
 
-<meta property="og:title" content="Reference: {dovetail} Challenge Blocks" />
+<meta property="og:title" content="Results for knibe84" />
 
 
 
@@ -117,39 +117,7 @@
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Episodes
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="01-challenges.html">Overview</a>
-    </li>
-    <li>
-      <a href="02-jekyll-challenge-blocks.html">Reference: Jekyll Challenge Blocks</a>
-    </li>
-    <li>
-      <a href="03-div-challenge-blocks.html">Reference: HTML `&lt;div&gt;` Challenge Blocks</a>
-    </li>
-    <li>
-      <a href="04-dovetail-challenge-blocks.html">Reference: {dovetail} Challenge Blocks</a>
-    </li>
-    <li>
-      <a href="05-fenced-div-challenge-blocks.html">Reference: Fenced Div Challenge Blocks</a>
-    </li>
-    <li>
-      <a href="06-simple-nested.html">Challenge: Simple Nested</a>
-    </li>
-    <li>
-      <a href="07-complex-nested.html">Challenge: Complex Nested</a>
-    </li>
-    <li>
-      <a href="08-survey-results.html">Survey Results</a>
-    </li>
-  </ul>
-</li>
+        <li class="dropdown-header">Episodes</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -180,75 +148,115 @@
 <div class="row">
   <div class="contents col-md-9">
     <div class="page-header">
-      <h1>Reference: {dovetail} Challenge Blocks</h1>
+      <h1>Results for knibe84</h1>
     </div>
 
-<div id="questions" class="section level2 questions">
-<h2>Questions</h2>
-<ul>
-<li>How is a block defined with {dovetail}?</li>
-</ul>
+<div id="challenge-simple-nested" class="section level1">
+<h1>Challenge: Simple Nested</h1>
+<p>Please write your answers for the simple nested challenge below</p>
+<div id="html-div" class="section level2">
+<h2>HTML <code>&lt;div&gt;</code></h2>
 </div>
-<div id="challenge-block-dovetail" class="section level1">
-<h1>Challenge block {dovetail}</h1>
-<div id="formatting" class="section level2 prereq">
-<h2>Formatting</h2>
-<p>The <a href="https://github.com/carpentries/dovetail#readme">{dovetail}</a> syntax provides a way to write div tags inside of code blocks prefixed by a special comment character (<code>#'</code>).</p>
-<div id="defining-blocks" class="section level3">
-<h3>Defining blocks</h3>
-<p>Blocks are defined like RMarkdown code chunks, starting with three backtics followed by the type of block in curly braces (<code>```{type}</code>). Blocks are closed with three backtics on a new line: <code>```</code>. For example</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="in">```{challenge}</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="in">#&#39; ## Challenge</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="in">#&#39;</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="in">#&#39; This is a *challenge*</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="in">```</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="in">```{callout}</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="in">#&#39; ## Callout</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="in">#&#39; This is a *callout*</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="in">```</span></span></code></pre></div>
-<p>Code is treated as a special entity in the blocks and does not necessarily need to be preceded by <code>#'</code> to allow for syntax highlighting in most editors.</p>
-<div id="nesting-blocks" class="section level4">
-<h4>Nesting blocks</h4>
-<p>To nest a block, you should include it in the block as <code>#' @type Title</code> where <code>@type</code> is the type of block and <code>Title</code> is a header associated with that block. For example, <code>#' @solution Precipitate</code> will start a new solution block inside of the current block with the title “Precipitate”.</p>
-<p>If there is no more content after the nested block, it will be closed automatically at the end of the chunk and nothing more is required on your part. If you need to include more prose in the outer block, then you can close a nested block with <code>#' @end</code></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1"></a><span class="in">```{challenge}</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="in">## Challenge</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="in">#&#39;</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="in">#&#39; This is a *challenge*</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="in">#&#39;</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="in">#&#39; @callout</span></span>
-<span id="cb2-7"><a href="#cb2-7"></a><span class="in">#&#39;</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a><span class="in">#&#39; This is a *callout* inside a *challenge*</span></span>
-<span id="cb2-9"><a href="#cb2-9"></a><span class="in">#&#39;</span></span>
-<span id="cb2-10"><a href="#cb2-10"></a><span class="in">#&#39; @end</span></span>
-<span id="cb2-11"><a href="#cb2-11"></a><span class="in">#&#39;</span></span>
-<span id="cb2-12"><a href="#cb2-12"></a><span class="in">#&#39; This is a *challenge* again</span></span>
-<span id="cb2-13"><a href="#cb2-13"></a><span class="in">```</span></span></code></pre></div>
-</div>
-</div>
-<div id="what-to-watch-out-for" class="section level3">
-<h3>What to watch out for</h3>
-<p>This has not been WIDELY tested, so let us know what you find!</p>
-</div>
-</div>
-</div>
-<div id="example" class="section level1">
-<h1>Example</h1>
-<p>Below is an example of the {dovetail} syntax generating a code chunk.</p>
-<div class="figure">
-<img src="fig/dovetail-simple.png" alt="" />
-<p class="caption">Example of RMarkdown with {dovetail} specifying a challenge and solution block</p>
-</div>
-<div class="challenge" markdown="1">
+<div class="challenge">
 <div id="challenge" class="section level2">
 <h2>Challenge</h2>
-<p>Use the <code>+</code> operator to concatenate the strings “hello” and “there” in python</p>
+<p>Use the <code>paste()</code> function to concatenate the strings “hello” and “there” in R</p>
 </div>
-<div id="solution" class="section level2 solution" markdown="1">
+<div id="solution" class="section level2">
 <h2>Solution</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">&quot;hello &quot;</span> <span class="op">+</span> <span class="st">&quot;there&quot;</span></span></code></pre></div>
-<pre class="output"><code>&quot;hello there&quot;</code></pre>
+<div class="solution">
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span></code></pre></div>
+</div>
+</div>
+</div>
+<div id="dovetail" class="section level2">
+<h2>{dovetail}</h2>
+</div>
+<div class="challenge" markdown="1">
+<div id="challenge-1" class="section level2">
+<h2>Challenge</h2>
+<p>Use the <code>paste()</code> function to concatenate the strings “hello” and “there” in R</p>
+</div>
+<div id="solution-1" class="section level2 solution" markdown="1">
+<h2>Solution</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span></code></pre></div>
+<pre class="output"><code>[1] &quot;hello there&quot;</code></pre>
+</div>
+</div>
+<div id="pandoc-fenced-div" class="section level2">
+<h2>pandoc fenced div</h2>
+</div>
+<div class="Challenge">
+<div id="challenge-2" class="section level2">
+<h2>Challenge</h2>
+<p>Use the <code>paste()</code> function to concatenate the strings “hello” and “there” in R</p>
+</div>
+<div id="solution-2" class="section level2 solution">
+<h2>Solution</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span></code></pre></div>
+<pre class="output"><code>[1] &quot;hello there&quot;</code></pre>
+</div>
+</div>
+<hr />
+</div>
+<div id="challenge-complex-nested" class="section level1">
+<h1>Challenge: Complex Nested</h1>
+<p>Please write your answers for the complex nested challenge below</p>
+<div id="html-div-1" class="section level2">
+<h2>HTML <code>&lt;div&gt;</code></h2>
+<div class='challenge'>
+
+</div>
+<div id="challenge-3" class="section level2">
+<h2>Challenge</h2>
+<p>Use the <code>paste()</code> function to concatenate the strings “hello” and “there” in R</p>
+</div>
+<div id="solution-3" class="section level2">
+<h2>Solution</h2>
+<div class="solution">
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span></code></pre></div>
+<p>Great! Now use <code>paste0()</code> to paste together “mono” and “rail” to make “monorail”</p>
+<div class="solution">
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span></code></pre></div>
+</div>
+</div>
+</div>
+<div id="dovetail-1" class="section level2">
+<h2>{dovetail}</h2>
+</div>
+<div class="challenge" markdown="1">
+<div id="challenge-4" class="section level2">
+<h2>Challenge</h2>
+<p>Use the <code>paste()</code> function to concatenate the strings “hello” and “there” in R</p>
+</div>
+<div class="solution" markdown="1">
+<div id="solution-4" class="section level2">
+<h2>Solution</h2>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span></code></pre></div>
+<p>Great! Now use <code>paste0()</code> to paste together “mono” and “rail” to make “monorail”</p>
+</div>
+<div id="solution-5" class="section level2 solution" markdown="1">
+<h2>Solution</h2>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span></code></pre></div>
+</div>
+</div>
+</div>
+<div id="pandoc-fenced-div-1" class="section level2">
+<h2>pandoc fenced div</h2>
+</div>
+<div class="Challenge">
+<div id="challenge-5" class="section level2">
+<h2>Challenge</h2>
+<p>Use the <code>paste()</code> function to concatenate the strings “hello” and “there” in R</p>
+</div>
+<div id="solution-6" class="section level2 solution">
+<h2>Solution</h2>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span></code></pre></div>
+</div>
+<p>Great! Now use <code>paste0()</code> to paste together “mono” and “rail” to make “monorail”</p>
+<div id="solution-7" class="section level2 solution">
+<h2>Solution</h2>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span></code></pre></div>
 </div>
 </div>
 </div>
@@ -273,7 +281,7 @@
   <div class="row">
     <div class="col-xs-1">
       <h3 class="text-left">
-        <a href="03-div-challenge-blocks.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
+        <a href="08-survey-results.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
       </h3>
     </div>
     <div class="col-xs-10">
@@ -281,7 +289,7 @@
     </div>
     <div class="col-xs-1">
       <h3 class="text-right">
-        <a href="05-fenced-div-challenge-blocks.html"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span><span class="sr-only">next episode</span></a>
+        <a href="index.html"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span><span class="sr-only">next episode</span></a>
       </h3>
     </div>
   </div>
@@ -294,7 +302,7 @@
       by <a href="https://softwarecarpentry.org">Software Carpentry Foundation</a>
     </div>
     <div class="col-md-6 help-links pull-right" align="right">
-      <a href="https://github.com/zkamvar/glowing-chainsaw/edit/main/episodes/04-dovetail-challenge-blocks.Rmd" data-checker-ignore>Edit on GitHub</a>
+      <a href="https://github.com/zkamvar/glowing-chainsaw/edit/main/episodes/files/survey-stata22.Rmd" data-checker-ignore>Edit on GitHub</a>
       /
       <a href="https://github.com/zkamvar/glowing-chainsaw/blob/main/CONTRIBUTING.md" data-checker-ignore>Contributing</a>
       /
