@@ -1,6 +1,6 @@
 ---
-sandpaper-digest: 2bfa528afddfb9a925251dbade497202
-title: "Results for stata22"
+sandpaper-digest: 0504e7c4d0761a67220d94f5fb299c72
+title: "Results for halgr54"
 ---
 
 # Challenge: Simple Nested
@@ -11,38 +11,40 @@ Please write your answers for the simple nested challenge below
 
 <div class='challenge'>
 
-## Challenge
-
-Use the `paste()` function to concatenate the strings “hello” and “there” in R
-
-## Solution
+Use the `+` operator to concatenate the strings "hello " and "there" in R
 
 <div class='solution'>
-```r
-paste("hello", "there")
-```
-
-</div>
-</div>
-
-## {dovetail}
-
-
-
-<div class='challenge' markdown='1'>
-
-## Challenge
-Use the `paste()` function to concatenate the strings “hello” and “there” in R
-
-<div class='solution' markdown='1'>
 
 ## Solution
- ```r
+
+```R
 paste("hello", "there")
 ```
 
 ```output
-[1] "hello there"
+"hello there"
+```
+</div>
+</div>
+
+
+## {dovetail}
+
+<div class='challenge' markdown='1'>
+
+## Challenge
+U
+Use the `+` operator to concatenate the strings "hello " and "there" in R
+
+<div class='solution' markdown='1'>
+
+## Solution
+ 
+```R
+paste("hello", "there")
+```
+```output
+"hello there"
 ```
 
 </div>
@@ -51,25 +53,26 @@ paste("hello", "there")
 
 ## pandoc fenced div
 
-::::::::::::::::::::::::::::::::::::::::::: Challenge
+::::::::::::::::::::::::::::::::::::::::::::: challenge
 
 ## Challenge
 
-Use the `paste()` function to concatenate the strings “hello” and “there” in R
+Use the `+` operator to concatenate the strings "hello " and "there" in R
 
-:::::::::::::::::::::::: solution
+:::::::::::::::::::::: solution
 
-## Solution
-```r
+## solution
+
+```R
 paste("hello", "there")
 ```
 
 ```output
-[1] "hello there"
+"hello there"
 ```
-:::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 --------------------------------------------------------------------------------
 
 # Challenge: Complex Nested
@@ -80,52 +83,73 @@ Please write your answers for the complex nested challenge below
 
 <div class='challenge'>
 
-## Challenge
+Use the `+` operator to concatenate the strings "hello " and "there" in R
 
-Use the `paste()` function to concatenate the strings “hello” and “there” in R
+<div class='solution'>
 
 ## Solution
 
-<div class='solution'>
-```r
+```R
 paste("hello", "there")
 ```
+
+```output
+"hello there"
+```
+</div>
 
 Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail”
 
 <div class='solution'>
-```r
+
+## Solution
+
+```R
 paste0("mono", "rail")
 ```
 
+```output
+"monorail"
+```
 </div>
+
 </div>
+
 
 ## {dovetail}
-
-
 
 <div class='challenge' markdown='1'>
 
 ## Challenge
-Use the `paste()` function to concatenate the strings “hello” and “there” in R
+Use the `+` operator to concatenate the strings "hello " and "there" in R
 
 <div class='solution' markdown='1'>
 
 ## Solution
- ```r
+ 
+```R
 paste("hello", "there")
 ```
-Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail”
-
-<div class='solution' markdown='1'>
-
-## Solution
- ```r
-paste0("mono", "rail")
+```output
+"hello there"
 ```
 
 </div>
+
+
+Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail”
+
+
+<div class='solution' markdown='1'>
+
+## Solution
+ 
+```R
+paste0("mono", "rail")
+```
+```output
+"monorail"
+```
 
 </div>
 
@@ -133,29 +157,41 @@ paste0("mono", "rail")
 
 ## pandoc fenced div
 
-::::::::::::::::::::::::::::::::::::::::::: Challenge
+::::::::::::::::::::::::::::::::::::::::::::: challenge
 
 ## Challenge
 
-Use the `paste()` function to concatenate the strings “hello” and “there” in R
+Use the `+` operator to concatenate the strings "hello " and "there" in R
 
-:::::::::::::::::::::::: solution
+:::::::::::::::::::::: solution
 
-## Solution
-```r
+## solution
+
+```R
 paste("hello", "there")
 ```
 
-::::::::::::::::::::::::
+```output
+"hello there"
+```
+
+::::::::::::::::::::::::::::::
 
 Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail”
 
-:::::::::::::::::::::::: solution
 
-## Solution
-```r
+:::::::::::::::::::::: solution
+
+## solution
+
+```R
 paste0("mono", "rail")
 ```
 
-::::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::::::::::::
+```output
+"monorail"
+```
+
+::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -1,5 +1,5 @@
 ---
-title: "Results for knibe84"
+title: "Results for stata22"
 ---
 
 # Challenge: Simple Nested
