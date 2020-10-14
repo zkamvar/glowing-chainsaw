@@ -1,0 +1,183 @@
+---
+title: "Results for halgr54"
+---
+
+# Challenge: Simple Nested
+
+Please write your answers for the simple nested challenge below
+
+## HTML `<div>`
+
+<div class='challenge'>
+
+Use the `+` operator to concatenate the strings "hello " and "there" in R
+
+<div class='solution'>
+
+## Solution
+
+```R
+paste("hello", "there")
+```
+
+```output
+"hello there"
+```
+</div>
+</div>
+
+
+## {dovetail}
+```{r setup-1, include = FALSE}
+library(dovetail)
+```
+```{challenge}
+#' ## Challenge
+#'
+#' U
+#' Use the `+` operator to concatenate the strings "hello " and "there" in R
+#' @solution Solution
+#'
+#' ```R
+paste("hello", "there")
+#' ```
+#' ```output
+"hello there"
+#' ```
+```
+
+## pandoc fenced div
+
+::::::::::::::::::::::::::::::::::::::::::::: challenge
+
+## Challenge
+
+Use the `+` operator to concatenate the strings "hello " and "there" in R
+
+:::::::::::::::::::::: solution
+
+## solution
+
+```R
+paste("hello", "there")
+```
+
+```output
+"hello there"
+```
+
+::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+--------------------------------------------------------------------------------
+
+# Challenge: Complex Nested
+
+Please write your answers for the complex nested challenge below
+
+## HTML `<div>`
+
+<div class='challenge'>
+
+Use the `+` operator to concatenate the strings "hello " and "there" in R
+
+<div class='solution'>
+
+## Solution
+
+```R
+paste("hello", "there")
+```
+
+```output
+"hello there"
+```
+</div>
+
+Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail”
+
+<div class='solution'>
+
+## Solution
+
+```R
+paste0("mono", "rail")
+```
+
+```output
+"monorail"
+```
+</div>
+
+</div>
+
+
+## {dovetail}
+```{r setup-2, include = FALSE}
+library(dovetail)
+```
+```{challenge}
+#' ## Challenge
+#'
+#' Use the `+` operator to concatenate the strings "hello " and "there" in R
+#' @solution Solution
+#'
+#' ```R
+paste("hello", "there")
+#' ```
+#' ```output
+"hello there"
+#' ```
+#' @end
+#'
+#' Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail”
+#'
+#' @solution Solution
+#'
+#' ```R
+paste0("mono", "rail")
+#' ```
+#' ```output
+"monorail"
+#' ```
+```
+
+## pandoc fenced div
+
+::::::::::::::::::::::::::::::::::::::::::::: challenge
+
+## Challenge
+
+Use the `+` operator to concatenate the strings "hello " and "there" in R
+
+:::::::::::::::::::::: solution
+
+## solution
+
+```R
+paste("hello", "there")
+```
+
+```output
+"hello there"
+```
+
+::::::::::::::::::::::::::::::
+
+Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail”
+
+
+:::::::::::::::::::::: solution
+
+## solution
+
+```R
+paste0("mono", "rail")
+```
+
+```output
+"monorail"
+```
+
+::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
