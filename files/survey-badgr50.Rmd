@@ -1,0 +1,152 @@
+---
+title: "Results for badgr50"
+---
+
+## HTML `<div>`
+
+<div class ='challenge'>
+## Challenge
+Use the paste() function to concatenate the strings “hello” and “there” in R
+
+<div class='solution'>
+## Solution
+```R
+paste("hello", "there")
+```
+
+```output
+"hello there"
+```
+</div>
+</div>
+
+## {dovetail}
+
+<!-- ZNK: had to rename False to FALSE -->
+
+```{r setup-1, include=FALSE}
+library(dovetail)
+```
+
+```{challenge}
+#' ## Challenge
+#' Use the paste() function to concatenate the strings #' “hello” and “there” in R
+#' 
+#' ```R
+paste("hello", "there")
+#' ```
+#' @solution Solution
+#' ```output
+"hello there"
+#' ```
+```
+
+
+## pandoc fenced div
+
+::::: challenge
+## Challenge
+Use the paste() function to concatenate the strings “hello” and “there” in R
+
+::: solution
+```R
+paste("hello", "there")
+```
+
+```output
+"hello there"
+```
+:::
+:::::
+
+--------------------------------------------------------------------------------
+
+## HTML `<div>`
+
+<div class ='challenge'>
+
+Use the paste() function to concatenate the strings “hello” and “there” in R
+
+<div class ='solution'>
+```R
+paste("hello", "there")
+```
+
+```output
+"hello there"
+```
+</div>
+
+Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail
+
+<div class ='solution'>
+```R
+paste0("mono", "rail")
+```
+
+```output
+"monorail"
+```
+
+</div>
+</div>
+
+## {dovetail}
+
+```{r setup-2, includ = FALSE}
+library(dovetail)
+```
+
+
+```{challenge}
+#' Use the paste() function to concatenate the strings #' “hello” and “there” in R
+#'
+#' ```R
+paste("hello", "there")
+#' ```
+#'
+#' @solution Solution
+#' ```output
+"hello there"
+#' ```
+#'
+#' Great! Now use `paste0()` to paste together “mono” and #' “rail” to make “monorail
+#'
+#' @solution Solution
+#' ```R
+paste0("mono", "rail")
+#' ```
+#'
+#' ```output
+"monorail"
+#' ```
+```
+
+## pandoc fenced div
+
+:::::: challenge
+Use the paste() function to concatenate the strings “hello” and “there” in R
+
+::::solution
+```R
+paste("hello", "there")
+```
+
+```output
+"hello there"
+```
+::::
+
+Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail
+
+:::: solution
+```R
+paste0("mono", "rail")
+```
+
+```output
+"monorail"
+```
+::::
+::::::
+
