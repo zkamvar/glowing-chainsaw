@@ -8,11 +8,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta http-equiv="last-modified" content="2020-10-29 18:49:22 +0000">
+<meta http-equiv="last-modified" content="2020-10-29 18:49:11 +0000">
 
 
 
-<title>Testing Challenge Blocks</title>
+<title>Testing Challenge Blocks: Results for parwh16</title>
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/cp/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/cp/apple-touch-icon-114x114.png" />
@@ -74,7 +74,7 @@
 
 
 
-<meta property="og:title" content="" />
+<meta property="og:title" content="Results for parwh16" />
 
 
 
@@ -94,7 +94,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-syllabus">
+    <div class="container template-title-body">
       <header>
       <!-- START: inst/pkgdown/templates/navbar.html -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -117,39 +117,7 @@
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Episodes
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="01-challenges.html">Overview</a>
-    </li>
-    <li>
-      <a href="02-jekyll-challenge-blocks.html">Reference: Jekyll Challenge Blocks</a>
-    </li>
-    <li>
-      <a href="03-div-challenge-blocks.html">Reference: HTML `&lt;div&gt;` Challenge Blocks</a>
-    </li>
-    <li>
-      <a href="04-dovetail-challenge-blocks.html">Reference: {dovetail} Challenge Blocks</a>
-    </li>
-    <li>
-      <a href="05-fenced-div-challenge-blocks.html">Reference: Fenced Div Challenge Blocks</a>
-    </li>
-    <li>
-      <a href="06-simple-nested.html">Challenge: Simple Nested</a>
-    </li>
-    <li>
-      <a href="07-complex-nested.html">Challenge: Complex Nested</a>
-    </li>
-    <li>
-      <a href="08-survey-results.html">Survey Results</a>
-    </li>
-  </ul>
-</li>
+        <li class="dropdown-header">Episodes</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -176,160 +144,117 @@
 
       </header>
 
-<!-- START: inst/pkgdown/templates/content-syllabus.html -->
-
+<!-- START: inst/pkgdown/templates/content-title-body.html -->
 <div class="row">
-  <div class="contents col-md-12">
+  <div class="contents col-md-9">
     <div class="page-header">
-      <h1></h1>
+      <h1>Results for parwh16</h1>
     </div>
 
-<p>This lesson is inteneded for you to provide feedback to the Lesson Infrastructure Technology Developer about what method you prefer to constructing the <a href="https://carpentries.github.io/lesson-example/04-formatting/index.html#special-blockquotes">special blockquotes</a> featured in Carpentries lessons.</p>
-<div id="instructions" class="section level2 prereq">
-<h2>Instructions</h2>
-<p>We have devised three potential candidates for replacing the blockquote syntax and would like ranked feedback on the syntax you prefer after completing two tasks with all three of the candidate syntaxes:</p>
-<ol style="list-style-type: decimal">
-<li>re-generate a simple example challenge/solution block</li>
-<li>re-generate a complex example challenge/solution block</li>
-</ol>
+<!-- ZNK Note: all of the header tags were increased by one, I decreased them -->
+<div id="html-div" class="section level2">
+<h2>HTML <code>&lt;div&gt;</code></h2>
+<div class="challenge">
+<p>### Challenge Use the <code>paste()</code> function to concatenate the strings “hello” and “there”. &lt;div class = "solution&gt; ### Solution <code>r   paste("Hello", "there!")</code></p>
+<pre class="output"><code>&quot;Hello there!</code></pre>
 </div>
-<div id="note" class="section level2 callout">
-<h2>Note</h2>
-<p>We do not expect you to render these on your own. Please edit these on your own computer with the editor you feel most comfortable with and then submit them in <a href="https://forms.gle/dFD9Xs2cNw8qnKts5">the google form</a>.</p>
 </div>
-<p>In the first lesson, you will be provided with images of code blocks generated via <a href="https://carbon.now.sh/" class="uri">https://carbon.now.sh/</a> and the corresponding output generated from that syntax. The second, third, and fourth lessons will present the challenges with a link to a google form to enter your responses.</p>
-<p>Good luck!</p>
+</div>
+<div id="dovetail" class="section level2">
+<h2>{dovetail}</h2>
+</div>
+<div id="section" class="section level1 challenge" markdown="1">
+<h1></h1>
+<p>#<code>Use the</code>paste()<code>function to concatenate the strings “hello” and “there”. #</code> #<code>@solution Solution #</code> #<code>```r paste("Hello", "there!") #</code> <code>#` #`</code>output “Hello there!” #`</p>
+</div>
+<div id="pandoc-fenced-div" class="section level2">
+<h2>pandoc fenced div</h2>
+<div class="challenge">
+<div id="challenge" class="section level3">
+<h3>Challenge</h3>
+<p>Use the <code>paste()</code> function to concatenate the strings “hello” and “there”.</p>
+</div>
+<div id="solution" class="section level3 solution">
+<h3>Solution</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">paste</span>(<span class="st">&quot;Hello&quot;</span>, <span class="st">&quot;there!&quot;</span>)</span></code></pre></div>
+<pre class="output"><code>&quot;Hello there!</code></pre>
+</div>
+</div>
+<hr />
+</div>
+<div id="html-div-1" class="section level2">
+<h2>HTML <code>&lt;div&gt;</code></h2>
+<div class="challenge">
+<p>### Challenge Use the <code>paste()</code> function to concatenate the strings “hello” and “there”.</p>
+<p>&lt;div class = "solution&gt; ### School Solution <code>r   paste("Hello", "there!")</code></p>
+<pre class="output"><code>&quot;Hello there!</code></pre>
+</div>
+<p>Great! Now use <code>paste0()</code> to paste together “mono” and “rail” to make “monorail”</p>
+<p>&lt;div class = "solution&gt; ### Fast Solution <code>r   paste0("mono", "rail")</code></p>
+<pre class="output"><code>monorail</code></pre>
+</div>
+</div>
+</div>
+<div id="dovetail-1" class="section level2">
+<h2>{dovetail}</h2>
+</div>
+<div id="section-1" class="section level1 challenge" markdown="1">
+<h1></h1>
+<p>#<code>Use the</code>paste()<code>function to concatenate the strings “hello” and “there”. #</code> #<code>@solution School Solution #</code> #<code>```r paste("Hello", "there!") #</code> <code>#` #`</code>output “Hello there!” #<code>#</code> Great! Now use <code>paste0()</code> to paste together “mono” and “rail” to make #<code>"monorail” #</code> #<code>@solution Fast Solution #</code> #<code>```r paste0("mono", "rail") #</code> <code>#`</code>output monorail #` ```</p>
+</div>
+<div id="pandoc-fenced-div-1" class="section level2">
+<h2>pandoc fenced div</h2>
+<div class="challenge">
+<div id="challenge-1" class="section level3">
+<h3>Challenge</h3>
+<p>Use the <code>paste()</code> function to concatenate the strings “hello” and “there”.</p>
+</div>
+<div id="school-solution" class="section level3 solution">
+<h3>School Solution</h3>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">paste</span>(<span class="st">&quot;Hello&quot;</span>, <span class="st">&quot;there!&quot;</span>)</span></code></pre></div>
+<pre class="output"><code>&quot;Hello there!</code></pre>
+</div>
+<p>Great! Now use <code>paste0()</code> to paste together “mono” and “rail” to make “monorail”</p>
+<div id="fast-solution" class="section level3 solution">
+<h3>Fast Solution</h3>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="kw">paste0</span>(<span class="st">&quot;Mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span></code></pre></div>
+<pre class="output"><code>Monorail</code></pre>
+</div>
+</div>
+</div>
 
   </div>
-</div>
 
-<div class="row">
-  <div class="contents col-md-12">
-    <div class="page-header" id="schedule">
-      <h2>Schedule</h2>
-    </div>
-    <table class="table table-striped table-responsive">
-       <tr>
-         <td class="col-md-2"></td>
-         <td class="col-md-3">
-           <a href="setup.html">Setup</a>
-         </td>
-         <td class="col-md-7">
-           Download files and setup software required for this lesson
-         </td>
-       </tr>
-  <tr>
-<td class="col-md-2">
-00:00
-</td>
-<td class="col-md-3">
- 1. <a href='01-challenges.html'>Overview</a>
-</td>
-<td class="col-md-7">
-What system of content generation seems easier to use for you?<br/>How easy will it be to explain this to a newcomer?<br/>What questions do you have for us?
-</td>
-</tr>
-<tr>
-<td class="col-md-2">
-00:03
-</td>
-<td class="col-md-3">
- 2. <a href='02-jekyll-challenge-blocks.html'>Reference: Jekyll Challenge Blocks</a>
-</td>
-<td class="col-md-7">
-How is a jekyll block quote defined?
-</td>
-</tr>
-<tr>
-<td class="col-md-2">
-00:05
-</td>
-<td class="col-md-3">
- 3. <a href='03-div-challenge-blocks.html'>Reference: HTML <code>&lt;div&gt;</code> Challenge Blocks</a>
-</td>
-<td class="col-md-7">
-How is a block defined with <code>&lt;div&gt;</code> tags?
-</td>
-</tr>
-<tr>
-<td class="col-md-2">
-00:10
-</td>
-<td class="col-md-3">
- 4. <a href='04-dovetail-challenge-blocks.html'>Reference: {dovetail} Challenge Blocks</a>
-</td>
-<td class="col-md-7">
-How is a block defined with {dovetail}?
-</td>
-</tr>
-<tr>
-<td class="col-md-2">
-00:15
-</td>
-<td class="col-md-3">
- 5. <a href='05-fenced-div-challenge-blocks.html'>Reference: Fenced Div Challenge Blocks</a>
-</td>
-<td class="col-md-7">
-How is a block defined with fenced divs?
-</td>
-</tr>
-<tr>
-<td class="col-md-2">
-00:20
-</td>
-<td class="col-md-3">
- 6. <a href='06-simple-nested.html'>Challenge: Simple Nested</a>
-</td>
-<td class="col-md-7">
-Which method do you prefer?
-</td>
-</tr>
-<tr>
-<td class="col-md-2">
-00:26
-</td>
-<td class="col-md-3">
- 7. <a href='07-complex-nested.html'>Challenge: Complex Nested</a>
-</td>
-<td class="col-md-7">
-Which method do you prefer?
-</td>
-</tr>
-<tr>
-<td class="col-md-2">
-00:37
-</td>
-<td class="col-md-3">
- 8. <a href='08-survey-results.html'>Survey Results</a>
-</td>
-<td class="col-md-7">
-What did you learn from this exercise?
-</td>
-</tr>
-<tr>
-<td class="col-md-2">
-00:37
-</td>
-<td class="col-md-3">
-Finish
-</td>
-<td class="col-md-7">
-</td>
-</tr>
-    </table>
-
-    <p>
-      The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
-    </p>
-
+  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
+    <nav id="toc" data-toggle="toc" class="sticky-top">
+      <h2 data-toc-skip>Contents</h2>
+    </nav>
   </div>
+
 </div>
-<!-- END  : inst/pkgdown/templates/content-syllabus.html -->
+
+
+<!-- END:   inst/pkgdown/templates/content-title-body.html-->
 
 
       <footer>
       <!-- START: inst/pkgdown/templates/footer.html -->
 <div class="container">
+  <div class="row">
+    <div class="col-xs-1">
+      <h3 class="text-left">
+        <a href="08-survey-results.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
+      </h3>
+    </div>
+    <div class="col-xs-10">
+      <h3 class="maintitle"><a href="index.html">Testing Challenge Blocks</a></h3>
+    </div>
+    <div class="col-xs-1">
+      <h3 class="text-right">
+        <a href="index.html"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span><span class="sr-only">next episode</span></a>
+      </h3>
+    </div>
+  </div>
   <div class="row">
     <div class="col-md-6 copyright" align="left">
       Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY 4.0</a> 2018–2020
@@ -339,7 +264,7 @@ Finish
       by <a href="https://softwarecarpentry.org">Software Carpentry Foundation</a>
     </div>
     <div class="col-md-6 help-links pull-right" align="right">
-      <a href="https://github.com/zkamvar/glowing-chainsaw/edit/main/README.md" data-checker-ignore>Edit on GitHub</a>
+      <a href="https://github.com/zkamvar/glowing-chainsaw/edit/main/episodes/files/survey-parwh16.Rmd" data-checker-ignore>Edit on GitHub</a>
       /
       <a href="https://github.com/zkamvar/glowing-chainsaw/blob/main/CONTRIBUTING.md" data-checker-ignore>Contributing</a>
       /

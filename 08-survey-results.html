@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta http-equiv="last-modified" content="2020-10-27 22:21:01 +0000">
+<meta http-equiv="last-modified" content="2020-10-29 18:49:22 +0000">
 
 
 
@@ -1644,172 +1644,340 @@
 <span id="cb7-213"><a href="#cb7-213"></a>:::</span></code></pre></div>
 </details>
 </div>
+<div id="parwh16" class="section level2">
+<h2>parwh16</h2>
+<p>The results for this entry can be found at <a href="survey-parwh16.html">survey-parwh16.html</a></p>
+<details>
+<p><summary>Click here to see the markdown generated from the entry</summary></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1"></a><span class="co">---</span></span>
+<span id="cb8-2"><a href="#cb8-2"></a><span class="an">sandpaper-digest:</span><span class="co"> 0b136f0ce303adbcda45735a21f731de</span></span>
+<span id="cb8-3"><a href="#cb8-3"></a><span class="an">title:</span><span class="co"> &quot;Results for parwh16&quot;</span></span>
+<span id="cb8-4"><a href="#cb8-4"></a><span class="co">---</span></span>
+<span id="cb8-5"><a href="#cb8-5"></a></span>
+<span id="cb8-6"><a href="#cb8-6"></a><span class="co">&lt;!-- ZNK Note: all of the header tags were increased by one, I decreased them --&gt;</span></span>
+<span id="cb8-7"><a href="#cb8-7"></a></span>
+<span id="cb8-8"><a href="#cb8-8"></a></span>
+<span id="cb8-9"><a href="#cb8-9"></a></span>
+<span id="cb8-10"><a href="#cb8-10"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
+<span id="cb8-11"><a href="#cb8-11"></a></span>
+<span id="cb8-12"><a href="#cb8-12"></a><span class="kw">&lt;div</span><span class="ot"> class</span> <span class="ot">=</span> <span class="st">&quot;challenge&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb8-13"><a href="#cb8-13"></a>  ### Challenge</span>
+<span id="cb8-14"><a href="#cb8-14"></a>  Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there”.</span>
+<span id="cb8-15"><a href="#cb8-15"></a>  <span class="kw">&lt;div</span><span class="ot"> class</span> <span class="ot">=</span> <span class="st">&quot;solution&gt;</span></span>
+<span id="cb8-16"><a href="#cb8-16"></a><span class="st">  ### Solution</span></span>
+<span id="cb8-17"><a href="#cb8-17"></a><span class="st">  ```r</span></span>
+<span id="cb8-18"><a href="#cb8-18"></a><span class="st">  paste(&quot;</span><span class="er">Hello&quot;,</span> <span class="er">&quot;there!&quot;)</span></span>
+<span id="cb8-19"><a href="#cb8-19"></a>  <span class="er">```</span></span>
+<span id="cb8-20"><a href="#cb8-20"></a>  </span>
+<span id="cb8-21"><a href="#cb8-21"></a>  <span class="er">```output</span></span>
+<span id="cb8-22"><a href="#cb8-22"></a>  <span class="er">&quot;Hello</span><span class="ot"> there</span><span class="er">!</span></span>
+<span id="cb8-23"><a href="#cb8-23"></a>  <span class="er">```</span></span>
+<span id="cb8-24"><a href="#cb8-24"></a>  <span class="er">&lt;/div</span><span class="kw">&gt;</span></span>
+<span id="cb8-25"><a href="#cb8-25"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb8-26"><a href="#cb8-26"></a></span>
+<span id="cb8-27"><a href="#cb8-27"></a><span class="fu">## {dovetail}</span></span>
+<span id="cb8-28"><a href="#cb8-28"></a></span>
+<span id="cb8-29"><a href="#cb8-29"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb8-30"><a href="#cb8-30"></a></span>
+<span id="cb8-31"><a href="#cb8-31"></a>#</span>
+<span id="cb8-32"><a href="#cb8-32"></a>#<span class="in">` Use the `</span>paste()` function to concatenate the strings “hello” and “there”.</span>
+<span id="cb8-33"><a href="#cb8-33"></a>#`</span>
+<span id="cb8-34"><a href="#cb8-34"></a>#` @solution Solution</span>
+<span id="cb8-35"><a href="#cb8-35"></a>#`</span>
+<span id="cb8-36"><a href="#cb8-36"></a>#` ```r</span>
+<span id="cb8-37"><a href="#cb8-37"></a>paste(&quot;Hello&quot;, &quot;there!&quot;)</span>
+<span id="cb8-38"><a href="#cb8-38"></a>#` ```</span>
+<span id="cb8-39"><a href="#cb8-39"></a>#`</span>
+<span id="cb8-40"><a href="#cb8-40"></a>#` ```output</span>
+<span id="cb8-41"><a href="#cb8-41"></a>&quot;Hello there!&quot;</span>
+<span id="cb8-42"><a href="#cb8-42"></a>#`</span>
+<span id="cb8-43"><a href="#cb8-43"></a></span>
+<span id="cb8-44"><a href="#cb8-44"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb8-45"><a href="#cb8-45"></a></span>
+<span id="cb8-46"><a href="#cb8-46"></a></span>
+<span id="cb8-47"><a href="#cb8-47"></a><span class="fu">## pandoc fenced div</span></span>
+<span id="cb8-48"><a href="#cb8-48"></a></span>
+<span id="cb8-49"><a href="#cb8-49"></a>::::::::::::::::::::::::::::::::::::::::challenge</span>
+<span id="cb8-50"><a href="#cb8-50"></a><span class="fu">### Challenge</span></span>
+<span id="cb8-51"><a href="#cb8-51"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there”.</span>
+<span id="cb8-52"><a href="#cb8-52"></a></span>
+<span id="cb8-53"><a href="#cb8-53"></a>::::::::::::::::::::::::::::::::solution</span>
+<span id="cb8-54"><a href="#cb8-54"></a><span class="fu">### Solution</span></span>
+<span id="cb8-55"><a href="#cb8-55"></a><span class="in">```r</span></span>
+<span id="cb8-56"><a href="#cb8-56"></a><span class="kw">paste</span>(<span class="st">&quot;Hello&quot;</span>, <span class="st">&quot;there!&quot;</span>)</span>
+<span id="cb8-57"><a href="#cb8-57"></a><span class="in">```</span></span>
+<span id="cb8-58"><a href="#cb8-58"></a></span>
+<span id="cb8-59"><a href="#cb8-59"></a><span class="in">```output</span></span>
+<span id="cb8-60"><a href="#cb8-60"></a><span class="in">&quot;Hello there!</span></span>
+<span id="cb8-61"><a href="#cb8-61"></a><span class="in">```</span></span>
+<span id="cb8-62"><a href="#cb8-62"></a>::::::::::::::::::::::::::::::::</span>
+<span id="cb8-63"><a href="#cb8-63"></a>::::::::::::::::::::::::::::::::::::::::</span>
+<span id="cb8-64"><a href="#cb8-64"></a></span>
+<span id="cb8-65"><a href="#cb8-65"></a>--------------------------------------------------------------------------------</span>
+<span id="cb8-66"><a href="#cb8-66"></a></span>
+<span id="cb8-67"><a href="#cb8-67"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
+<span id="cb8-68"><a href="#cb8-68"></a></span>
+<span id="cb8-69"><a href="#cb8-69"></a><span class="kw">&lt;div</span><span class="ot"> class</span> <span class="ot">=</span> <span class="st">&quot;challenge&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb8-70"><a href="#cb8-70"></a>  ### Challenge</span>
+<span id="cb8-71"><a href="#cb8-71"></a>  Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there”.</span>
+<span id="cb8-72"><a href="#cb8-72"></a></span>
+<span id="cb8-73"><a href="#cb8-73"></a>  <span class="kw">&lt;div</span><span class="ot"> class</span> <span class="ot">=</span> <span class="st">&quot;solution&gt;</span></span>
+<span id="cb8-74"><a href="#cb8-74"></a><span class="st">  ### School Solution</span></span>
+<span id="cb8-75"><a href="#cb8-75"></a><span class="st">  ```r</span></span>
+<span id="cb8-76"><a href="#cb8-76"></a><span class="st">  paste(&quot;</span><span class="er">Hello&quot;,</span> <span class="er">&quot;there!&quot;)</span></span>
+<span id="cb8-77"><a href="#cb8-77"></a>  <span class="er">```</span></span>
+<span id="cb8-78"><a href="#cb8-78"></a></span>
+<span id="cb8-79"><a href="#cb8-79"></a>  <span class="er">```output</span></span>
+<span id="cb8-80"><a href="#cb8-80"></a>  <span class="er">&quot;Hello</span><span class="ot"> there</span><span class="er">!</span></span>
+<span id="cb8-81"><a href="#cb8-81"></a>  <span class="er">```</span></span>
+<span id="cb8-82"><a href="#cb8-82"></a>  <span class="er">&lt;/div</span><span class="kw">&gt;</span></span>
+<span id="cb8-83"><a href="#cb8-83"></a></span>
+<span id="cb8-84"><a href="#cb8-84"></a>  Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make</span>
+<span id="cb8-85"><a href="#cb8-85"></a>  “monorail”</span>
+<span id="cb8-86"><a href="#cb8-86"></a></span>
+<span id="cb8-87"><a href="#cb8-87"></a>  <span class="kw">&lt;div</span><span class="ot"> class</span> <span class="ot">=</span> <span class="st">&quot;solution&gt;</span></span>
+<span id="cb8-88"><a href="#cb8-88"></a><span class="st">  ### Fast Solution</span></span>
+<span id="cb8-89"><a href="#cb8-89"></a><span class="st">  ```r</span></span>
+<span id="cb8-90"><a href="#cb8-90"></a><span class="st">  paste0(&quot;</span><span class="er">mono&quot;,</span> <span class="er">&quot;rail&quot;)</span></span>
+<span id="cb8-91"><a href="#cb8-91"></a>  <span class="er">```</span></span>
+<span id="cb8-92"><a href="#cb8-92"></a></span>
+<span id="cb8-93"><a href="#cb8-93"></a>  <span class="er">```output</span></span>
+<span id="cb8-94"><a href="#cb8-94"></a><span class="ot">  monorail</span></span>
+<span id="cb8-95"><a href="#cb8-95"></a>  <span class="er">```</span></span>
+<span id="cb8-96"><a href="#cb8-96"></a>  <span class="er">&lt;/div</span><span class="kw">&gt;</span></span>
+<span id="cb8-97"><a href="#cb8-97"></a></span>
+<span id="cb8-98"><a href="#cb8-98"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb8-99"><a href="#cb8-99"></a></span>
+<span id="cb8-100"><a href="#cb8-100"></a><span class="fu">## {dovetail}</span></span>
+<span id="cb8-101"><a href="#cb8-101"></a></span>
+<span id="cb8-102"><a href="#cb8-102"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb8-103"><a href="#cb8-103"></a></span>
+<span id="cb8-104"><a href="#cb8-104"></a>#</span>
+<span id="cb8-105"><a href="#cb8-105"></a>#<span class="in">` Use the `</span>paste()` function to concatenate the strings “hello” and “there”.</span>
+<span id="cb8-106"><a href="#cb8-106"></a>#`</span>
+<span id="cb8-107"><a href="#cb8-107"></a>#` @solution School Solution</span>
+<span id="cb8-108"><a href="#cb8-108"></a>#`</span>
+<span id="cb8-109"><a href="#cb8-109"></a>#` ```r</span>
+<span id="cb8-110"><a href="#cb8-110"></a>paste(&quot;Hello&quot;, &quot;there!&quot;)</span>
+<span id="cb8-111"><a href="#cb8-111"></a>#` ```</span>
+<span id="cb8-112"><a href="#cb8-112"></a>#`</span>
+<span id="cb8-113"><a href="#cb8-113"></a>#` ```output</span>
+<span id="cb8-114"><a href="#cb8-114"></a>&quot;Hello there!&quot;</span>
+<span id="cb8-115"><a href="#cb8-115"></a>#`</span>
+<span id="cb8-116"><a href="#cb8-116"></a>#<span class="in">` Great! Now use `</span>paste0()` to paste together “mono” and “rail” to make</span>
+<span id="cb8-117"><a href="#cb8-117"></a>#` &quot;monorail”</span>
+<span id="cb8-118"><a href="#cb8-118"></a>#`</span>
+<span id="cb8-119"><a href="#cb8-119"></a>#` @solution Fast Solution</span>
+<span id="cb8-120"><a href="#cb8-120"></a>#`</span>
+<span id="cb8-121"><a href="#cb8-121"></a>#` ```r</span>
+<span id="cb8-122"><a href="#cb8-122"></a>paste0(&quot;mono&quot;, &quot;rail&quot;)</span>
+<span id="cb8-123"><a href="#cb8-123"></a>#` ```</span>
+<span id="cb8-124"><a href="#cb8-124"></a>#` ```output</span>
+<span id="cb8-125"><a href="#cb8-125"></a>monorail</span>
+<span id="cb8-126"><a href="#cb8-126"></a>#` ```</span>
+<span id="cb8-127"><a href="#cb8-127"></a></span>
+<span id="cb8-128"><a href="#cb8-128"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb8-129"><a href="#cb8-129"></a></span>
+<span id="cb8-130"><a href="#cb8-130"></a></span>
+<span id="cb8-131"><a href="#cb8-131"></a><span class="fu">## pandoc fenced div</span></span>
+<span id="cb8-132"><a href="#cb8-132"></a></span>
+<span id="cb8-133"><a href="#cb8-133"></a>::::::::::::::::::::::::::::::::::::::::challenge</span>
+<span id="cb8-134"><a href="#cb8-134"></a><span class="fu">### Challenge</span></span>
+<span id="cb8-135"><a href="#cb8-135"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there”.</span>
+<span id="cb8-136"><a href="#cb8-136"></a></span>
+<span id="cb8-137"><a href="#cb8-137"></a>::::::::::::::::::::::::::::::::solution</span>
+<span id="cb8-138"><a href="#cb8-138"></a><span class="fu">### School Solution</span></span>
+<span id="cb8-139"><a href="#cb8-139"></a><span class="in">```r</span></span>
+<span id="cb8-140"><a href="#cb8-140"></a><span class="kw">paste</span>(<span class="st">&quot;Hello&quot;</span>, <span class="st">&quot;there!&quot;</span>)</span>
+<span id="cb8-141"><a href="#cb8-141"></a><span class="in">```</span></span>
+<span id="cb8-142"><a href="#cb8-142"></a></span>
+<span id="cb8-143"><a href="#cb8-143"></a><span class="in">```output</span></span>
+<span id="cb8-144"><a href="#cb8-144"></a><span class="in">&quot;Hello there!</span></span>
+<span id="cb8-145"><a href="#cb8-145"></a><span class="in">```</span></span>
+<span id="cb8-146"><a href="#cb8-146"></a>::::::::::::::::::::::::::::::::</span>
+<span id="cb8-147"><a href="#cb8-147"></a></span>
+<span id="cb8-148"><a href="#cb8-148"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make</span>
+<span id="cb8-149"><a href="#cb8-149"></a>“monorail”</span>
+<span id="cb8-150"><a href="#cb8-150"></a></span>
+<span id="cb8-151"><a href="#cb8-151"></a>::::::::::::::::::::::::::::::::solution</span>
+<span id="cb8-152"><a href="#cb8-152"></a><span class="fu">### Fast Solution</span></span>
+<span id="cb8-153"><a href="#cb8-153"></a><span class="in">```r</span></span>
+<span id="cb8-154"><a href="#cb8-154"></a><span class="kw">paste0</span>(<span class="st">&quot;Mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
+<span id="cb8-155"><a href="#cb8-155"></a><span class="in">```</span></span>
+<span id="cb8-156"><a href="#cb8-156"></a></span>
+<span id="cb8-157"><a href="#cb8-157"></a><span class="in">```output</span></span>
+<span id="cb8-158"><a href="#cb8-158"></a><span class="in">Monorail</span></span>
+<span id="cb8-159"><a href="#cb8-159"></a><span class="in">```</span></span>
+<span id="cb8-160"><a href="#cb8-160"></a>::::::::::::::::::::::::::::::::</span>
+<span id="cb8-161"><a href="#cb8-161"></a>::::::::::::::::::::::::::::::::::::::::</span></code></pre></div>
+</details>
+</div>
 <div id="stata22" class="section level2">
 <h2>stata22</h2>
 <p>The results for this entry can be found at <a href="survey-stata22.html">survey-stata22.html</a></p>
 <details>
 <p><summary>Click here to see the markdown generated from the entry</summary></p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1"></a><span class="co">---</span></span>
-<span id="cb8-2"><a href="#cb8-2"></a><span class="an">sandpaper-digest:</span><span class="co"> 2bfa528afddfb9a925251dbade497202</span></span>
-<span id="cb8-3"><a href="#cb8-3"></a><span class="an">title:</span><span class="co"> &quot;Results for stata22&quot;</span></span>
-<span id="cb8-4"><a href="#cb8-4"></a><span class="co">---</span></span>
-<span id="cb8-5"><a href="#cb8-5"></a></span>
-<span id="cb8-6"><a href="#cb8-6"></a><span class="fu"># Challenge: Simple Nested</span></span>
-<span id="cb8-7"><a href="#cb8-7"></a></span>
-<span id="cb8-8"><a href="#cb8-8"></a>Please write your answers for the simple nested challenge below</span>
-<span id="cb8-9"><a href="#cb8-9"></a></span>
-<span id="cb8-10"><a href="#cb8-10"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
-<span id="cb8-11"><a href="#cb8-11"></a></span>
-<span id="cb8-12"><a href="#cb8-12"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-13"><a href="#cb8-13"></a></span>
-<span id="cb8-14"><a href="#cb8-14"></a><span class="fu">## Challenge</span></span>
-<span id="cb8-15"><a href="#cb8-15"></a></span>
-<span id="cb8-16"><a href="#cb8-16"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
-<span id="cb8-17"><a href="#cb8-17"></a></span>
-<span id="cb8-18"><a href="#cb8-18"></a><span class="fu">## Solution</span></span>
-<span id="cb8-19"><a href="#cb8-19"></a></span>
-<span id="cb8-20"><a href="#cb8-20"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-21"><a href="#cb8-21"></a><span class="in">```r</span></span>
-<span id="cb8-22"><a href="#cb8-22"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb8-23"><a href="#cb8-23"></a><span class="in">```</span></span>
-<span id="cb8-24"><a href="#cb8-24"></a></span>
-<span id="cb8-25"><a href="#cb8-25"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb8-26"><a href="#cb8-26"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb8-27"><a href="#cb8-27"></a></span>
-<span id="cb8-28"><a href="#cb8-28"></a><span class="fu">## {dovetail}</span></span>
-<span id="cb8-29"><a href="#cb8-29"></a></span>
-<span id="cb8-30"><a href="#cb8-30"></a></span>
-<span id="cb8-31"><a href="#cb8-31"></a></span>
-<span id="cb8-32"><a href="#cb8-32"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-33"><a href="#cb8-33"></a></span>
-<span id="cb8-34"><a href="#cb8-34"></a><span class="fu">## Challenge</span></span>
-<span id="cb8-35"><a href="#cb8-35"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
-<span id="cb8-36"><a href="#cb8-36"></a></span>
-<span id="cb8-37"><a href="#cb8-37"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-38"><a href="#cb8-38"></a></span>
-<span id="cb8-39"><a href="#cb8-39"></a><span class="fu">## Solution</span></span>
-<span id="cb8-40"><a href="#cb8-40"></a> <span class="in">```r</span></span>
-<span id="cb8-41"><a href="#cb8-41"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb8-42"><a href="#cb8-42"></a><span class="in">```</span></span>
-<span id="cb8-43"><a href="#cb8-43"></a></span>
-<span id="cb8-44"><a href="#cb8-44"></a><span class="in">```output</span></span>
-<span id="cb8-45"><a href="#cb8-45"></a><span class="in">[1] &quot;hello there&quot;</span></span>
-<span id="cb8-46"><a href="#cb8-46"></a><span class="in">```</span></span>
-<span id="cb8-47"><a href="#cb8-47"></a></span>
-<span id="cb8-48"><a href="#cb8-48"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb8-49"><a href="#cb8-49"></a></span>
-<span id="cb8-50"><a href="#cb8-50"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb8-51"><a href="#cb8-51"></a></span>
-<span id="cb8-52"><a href="#cb8-52"></a><span class="fu">## pandoc fenced div</span></span>
-<span id="cb8-53"><a href="#cb8-53"></a></span>
-<span id="cb8-54"><a href="#cb8-54"></a>::::::::::::::::::::::::::::::::::::::::::: Challenge</span>
-<span id="cb8-55"><a href="#cb8-55"></a></span>
-<span id="cb8-56"><a href="#cb8-56"></a><span class="fu">## Challenge</span></span>
-<span id="cb8-57"><a href="#cb8-57"></a></span>
-<span id="cb8-58"><a href="#cb8-58"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
-<span id="cb8-59"><a href="#cb8-59"></a></span>
-<span id="cb8-60"><a href="#cb8-60"></a>:::::::::::::::::::::::: solution</span>
-<span id="cb8-61"><a href="#cb8-61"></a></span>
-<span id="cb8-62"><a href="#cb8-62"></a><span class="fu">## Solution</span></span>
-<span id="cb8-63"><a href="#cb8-63"></a><span class="in">```r</span></span>
-<span id="cb8-64"><a href="#cb8-64"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb8-65"><a href="#cb8-65"></a><span class="in">```</span></span>
-<span id="cb8-66"><a href="#cb8-66"></a></span>
-<span id="cb8-67"><a href="#cb8-67"></a><span class="in">```output</span></span>
-<span id="cb8-68"><a href="#cb8-68"></a><span class="in">[1] &quot;hello there&quot;</span></span>
-<span id="cb8-69"><a href="#cb8-69"></a><span class="in">```</span></span>
-<span id="cb8-70"><a href="#cb8-70"></a>:::::::::::::::::::::::</span>
-<span id="cb8-71"><a href="#cb8-71"></a>:::::::::::::::::::::::::::::::::::::::::::</span>
-<span id="cb8-72"><a href="#cb8-72"></a></span>
-<span id="cb8-73"><a href="#cb8-73"></a>--------------------------------------------------------------------------------</span>
-<span id="cb8-74"><a href="#cb8-74"></a></span>
-<span id="cb8-75"><a href="#cb8-75"></a><span class="fu"># Challenge: Complex Nested</span></span>
-<span id="cb8-76"><a href="#cb8-76"></a></span>
-<span id="cb8-77"><a href="#cb8-77"></a>Please write your answers for the complex nested challenge below</span>
-<span id="cb8-78"><a href="#cb8-78"></a></span>
-<span id="cb8-79"><a href="#cb8-79"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
-<span id="cb8-80"><a href="#cb8-80"></a></span>
-<span id="cb8-81"><a href="#cb8-81"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-82"><a href="#cb8-82"></a></span>
-<span id="cb8-83"><a href="#cb8-83"></a><span class="fu">## Challenge</span></span>
-<span id="cb8-84"><a href="#cb8-84"></a></span>
-<span id="cb8-85"><a href="#cb8-85"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
-<span id="cb8-86"><a href="#cb8-86"></a></span>
-<span id="cb8-87"><a href="#cb8-87"></a><span class="fu">## Solution</span></span>
-<span id="cb8-88"><a href="#cb8-88"></a></span>
-<span id="cb8-89"><a href="#cb8-89"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-90"><a href="#cb8-90"></a><span class="in">```r</span></span>
-<span id="cb8-91"><a href="#cb8-91"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb8-92"><a href="#cb8-92"></a><span class="in">```</span></span>
-<span id="cb8-93"><a href="#cb8-93"></a></span>
-<span id="cb8-94"><a href="#cb8-94"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
-<span id="cb8-95"><a href="#cb8-95"></a></span>
-<span id="cb8-96"><a href="#cb8-96"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-97"><a href="#cb8-97"></a><span class="in">```r</span></span>
-<span id="cb8-98"><a href="#cb8-98"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
-<span id="cb8-99"><a href="#cb8-99"></a><span class="in">```</span></span>
-<span id="cb8-100"><a href="#cb8-100"></a></span>
-<span id="cb8-101"><a href="#cb8-101"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb8-102"><a href="#cb8-102"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb8-103"><a href="#cb8-103"></a></span>
-<span id="cb8-104"><a href="#cb8-104"></a><span class="fu">## {dovetail}</span></span>
-<span id="cb8-105"><a href="#cb8-105"></a></span>
-<span id="cb8-106"><a href="#cb8-106"></a></span>
-<span id="cb8-107"><a href="#cb8-107"></a></span>
-<span id="cb8-108"><a href="#cb8-108"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-109"><a href="#cb8-109"></a></span>
-<span id="cb8-110"><a href="#cb8-110"></a><span class="fu">## Challenge</span></span>
-<span id="cb8-111"><a href="#cb8-111"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
-<span id="cb8-112"><a href="#cb8-112"></a></span>
-<span id="cb8-113"><a href="#cb8-113"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-114"><a href="#cb8-114"></a></span>
-<span id="cb8-115"><a href="#cb8-115"></a><span class="fu">## Solution</span></span>
-<span id="cb8-116"><a href="#cb8-116"></a> <span class="in">```r</span></span>
-<span id="cb8-117"><a href="#cb8-117"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb8-118"><a href="#cb8-118"></a><span class="in">```</span></span>
-<span id="cb8-119"><a href="#cb8-119"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
-<span id="cb8-120"><a href="#cb8-120"></a></span>
-<span id="cb8-121"><a href="#cb8-121"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb8-122"><a href="#cb8-122"></a></span>
-<span id="cb8-123"><a href="#cb8-123"></a><span class="fu">## Solution</span></span>
-<span id="cb8-124"><a href="#cb8-124"></a> <span class="in">```r</span></span>
-<span id="cb8-125"><a href="#cb8-125"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
-<span id="cb8-126"><a href="#cb8-126"></a><span class="in">```</span></span>
-<span id="cb8-127"><a href="#cb8-127"></a></span>
-<span id="cb8-128"><a href="#cb8-128"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb8-129"><a href="#cb8-129"></a></span>
-<span id="cb8-130"><a href="#cb8-130"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb8-131"><a href="#cb8-131"></a></span>
-<span id="cb8-132"><a href="#cb8-132"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb8-133"><a href="#cb8-133"></a></span>
-<span id="cb8-134"><a href="#cb8-134"></a><span class="fu">## pandoc fenced div</span></span>
-<span id="cb8-135"><a href="#cb8-135"></a></span>
-<span id="cb8-136"><a href="#cb8-136"></a>::::::::::::::::::::::::::::::::::::::::::: Challenge</span>
-<span id="cb8-137"><a href="#cb8-137"></a></span>
-<span id="cb8-138"><a href="#cb8-138"></a><span class="fu">## Challenge</span></span>
-<span id="cb8-139"><a href="#cb8-139"></a></span>
-<span id="cb8-140"><a href="#cb8-140"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
-<span id="cb8-141"><a href="#cb8-141"></a></span>
-<span id="cb8-142"><a href="#cb8-142"></a>:::::::::::::::::::::::: solution</span>
-<span id="cb8-143"><a href="#cb8-143"></a></span>
-<span id="cb8-144"><a href="#cb8-144"></a><span class="fu">## Solution</span></span>
-<span id="cb8-145"><a href="#cb8-145"></a><span class="in">```r</span></span>
-<span id="cb8-146"><a href="#cb8-146"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb8-147"><a href="#cb8-147"></a><span class="in">```</span></span>
-<span id="cb8-148"><a href="#cb8-148"></a></span>
-<span id="cb8-149"><a href="#cb8-149"></a>::::::::::::::::::::::::</span>
-<span id="cb8-150"><a href="#cb8-150"></a></span>
-<span id="cb8-151"><a href="#cb8-151"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
-<span id="cb8-152"><a href="#cb8-152"></a></span>
-<span id="cb8-153"><a href="#cb8-153"></a>:::::::::::::::::::::::: solution</span>
-<span id="cb8-154"><a href="#cb8-154"></a></span>
-<span id="cb8-155"><a href="#cb8-155"></a><span class="fu">## Solution</span></span>
-<span id="cb8-156"><a href="#cb8-156"></a><span class="in">```r</span></span>
-<span id="cb8-157"><a href="#cb8-157"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
-<span id="cb8-158"><a href="#cb8-158"></a><span class="in">```</span></span>
-<span id="cb8-159"><a href="#cb8-159"></a></span>
-<span id="cb8-160"><a href="#cb8-160"></a>::::::::::::::::::::::::</span>
-<span id="cb8-161"><a href="#cb8-161"></a>:::::::::::::::::::::::::::::::::::::::::::</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1"></a><span class="co">---</span></span>
+<span id="cb9-2"><a href="#cb9-2"></a><span class="an">sandpaper-digest:</span><span class="co"> 2bfa528afddfb9a925251dbade497202</span></span>
+<span id="cb9-3"><a href="#cb9-3"></a><span class="an">title:</span><span class="co"> &quot;Results for stata22&quot;</span></span>
+<span id="cb9-4"><a href="#cb9-4"></a><span class="co">---</span></span>
+<span id="cb9-5"><a href="#cb9-5"></a></span>
+<span id="cb9-6"><a href="#cb9-6"></a><span class="fu"># Challenge: Simple Nested</span></span>
+<span id="cb9-7"><a href="#cb9-7"></a></span>
+<span id="cb9-8"><a href="#cb9-8"></a>Please write your answers for the simple nested challenge below</span>
+<span id="cb9-9"><a href="#cb9-9"></a></span>
+<span id="cb9-10"><a href="#cb9-10"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
+<span id="cb9-11"><a href="#cb9-11"></a></span>
+<span id="cb9-12"><a href="#cb9-12"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-13"><a href="#cb9-13"></a></span>
+<span id="cb9-14"><a href="#cb9-14"></a><span class="fu">## Challenge</span></span>
+<span id="cb9-15"><a href="#cb9-15"></a></span>
+<span id="cb9-16"><a href="#cb9-16"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
+<span id="cb9-17"><a href="#cb9-17"></a></span>
+<span id="cb9-18"><a href="#cb9-18"></a><span class="fu">## Solution</span></span>
+<span id="cb9-19"><a href="#cb9-19"></a></span>
+<span id="cb9-20"><a href="#cb9-20"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-21"><a href="#cb9-21"></a><span class="in">```r</span></span>
+<span id="cb9-22"><a href="#cb9-22"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb9-23"><a href="#cb9-23"></a><span class="in">```</span></span>
+<span id="cb9-24"><a href="#cb9-24"></a></span>
+<span id="cb9-25"><a href="#cb9-25"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb9-26"><a href="#cb9-26"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb9-27"><a href="#cb9-27"></a></span>
+<span id="cb9-28"><a href="#cb9-28"></a><span class="fu">## {dovetail}</span></span>
+<span id="cb9-29"><a href="#cb9-29"></a></span>
+<span id="cb9-30"><a href="#cb9-30"></a></span>
+<span id="cb9-31"><a href="#cb9-31"></a></span>
+<span id="cb9-32"><a href="#cb9-32"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-33"><a href="#cb9-33"></a></span>
+<span id="cb9-34"><a href="#cb9-34"></a><span class="fu">## Challenge</span></span>
+<span id="cb9-35"><a href="#cb9-35"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
+<span id="cb9-36"><a href="#cb9-36"></a></span>
+<span id="cb9-37"><a href="#cb9-37"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-38"><a href="#cb9-38"></a></span>
+<span id="cb9-39"><a href="#cb9-39"></a><span class="fu">## Solution</span></span>
+<span id="cb9-40"><a href="#cb9-40"></a> <span class="in">```r</span></span>
+<span id="cb9-41"><a href="#cb9-41"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb9-42"><a href="#cb9-42"></a><span class="in">```</span></span>
+<span id="cb9-43"><a href="#cb9-43"></a></span>
+<span id="cb9-44"><a href="#cb9-44"></a><span class="in">```output</span></span>
+<span id="cb9-45"><a href="#cb9-45"></a><span class="in">[1] &quot;hello there&quot;</span></span>
+<span id="cb9-46"><a href="#cb9-46"></a><span class="in">```</span></span>
+<span id="cb9-47"><a href="#cb9-47"></a></span>
+<span id="cb9-48"><a href="#cb9-48"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb9-49"><a href="#cb9-49"></a></span>
+<span id="cb9-50"><a href="#cb9-50"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb9-51"><a href="#cb9-51"></a></span>
+<span id="cb9-52"><a href="#cb9-52"></a><span class="fu">## pandoc fenced div</span></span>
+<span id="cb9-53"><a href="#cb9-53"></a></span>
+<span id="cb9-54"><a href="#cb9-54"></a>::::::::::::::::::::::::::::::::::::::::::: Challenge</span>
+<span id="cb9-55"><a href="#cb9-55"></a></span>
+<span id="cb9-56"><a href="#cb9-56"></a><span class="fu">## Challenge</span></span>
+<span id="cb9-57"><a href="#cb9-57"></a></span>
+<span id="cb9-58"><a href="#cb9-58"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
+<span id="cb9-59"><a href="#cb9-59"></a></span>
+<span id="cb9-60"><a href="#cb9-60"></a>:::::::::::::::::::::::: solution</span>
+<span id="cb9-61"><a href="#cb9-61"></a></span>
+<span id="cb9-62"><a href="#cb9-62"></a><span class="fu">## Solution</span></span>
+<span id="cb9-63"><a href="#cb9-63"></a><span class="in">```r</span></span>
+<span id="cb9-64"><a href="#cb9-64"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb9-65"><a href="#cb9-65"></a><span class="in">```</span></span>
+<span id="cb9-66"><a href="#cb9-66"></a></span>
+<span id="cb9-67"><a href="#cb9-67"></a><span class="in">```output</span></span>
+<span id="cb9-68"><a href="#cb9-68"></a><span class="in">[1] &quot;hello there&quot;</span></span>
+<span id="cb9-69"><a href="#cb9-69"></a><span class="in">```</span></span>
+<span id="cb9-70"><a href="#cb9-70"></a>:::::::::::::::::::::::</span>
+<span id="cb9-71"><a href="#cb9-71"></a>:::::::::::::::::::::::::::::::::::::::::::</span>
+<span id="cb9-72"><a href="#cb9-72"></a></span>
+<span id="cb9-73"><a href="#cb9-73"></a>--------------------------------------------------------------------------------</span>
+<span id="cb9-74"><a href="#cb9-74"></a></span>
+<span id="cb9-75"><a href="#cb9-75"></a><span class="fu"># Challenge: Complex Nested</span></span>
+<span id="cb9-76"><a href="#cb9-76"></a></span>
+<span id="cb9-77"><a href="#cb9-77"></a>Please write your answers for the complex nested challenge below</span>
+<span id="cb9-78"><a href="#cb9-78"></a></span>
+<span id="cb9-79"><a href="#cb9-79"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
+<span id="cb9-80"><a href="#cb9-80"></a></span>
+<span id="cb9-81"><a href="#cb9-81"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-82"><a href="#cb9-82"></a></span>
+<span id="cb9-83"><a href="#cb9-83"></a><span class="fu">## Challenge</span></span>
+<span id="cb9-84"><a href="#cb9-84"></a></span>
+<span id="cb9-85"><a href="#cb9-85"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
+<span id="cb9-86"><a href="#cb9-86"></a></span>
+<span id="cb9-87"><a href="#cb9-87"></a><span class="fu">## Solution</span></span>
+<span id="cb9-88"><a href="#cb9-88"></a></span>
+<span id="cb9-89"><a href="#cb9-89"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-90"><a href="#cb9-90"></a><span class="in">```r</span></span>
+<span id="cb9-91"><a href="#cb9-91"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb9-92"><a href="#cb9-92"></a><span class="in">```</span></span>
+<span id="cb9-93"><a href="#cb9-93"></a></span>
+<span id="cb9-94"><a href="#cb9-94"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
+<span id="cb9-95"><a href="#cb9-95"></a></span>
+<span id="cb9-96"><a href="#cb9-96"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-97"><a href="#cb9-97"></a><span class="in">```r</span></span>
+<span id="cb9-98"><a href="#cb9-98"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
+<span id="cb9-99"><a href="#cb9-99"></a><span class="in">```</span></span>
+<span id="cb9-100"><a href="#cb9-100"></a></span>
+<span id="cb9-101"><a href="#cb9-101"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb9-102"><a href="#cb9-102"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb9-103"><a href="#cb9-103"></a></span>
+<span id="cb9-104"><a href="#cb9-104"></a><span class="fu">## {dovetail}</span></span>
+<span id="cb9-105"><a href="#cb9-105"></a></span>
+<span id="cb9-106"><a href="#cb9-106"></a></span>
+<span id="cb9-107"><a href="#cb9-107"></a></span>
+<span id="cb9-108"><a href="#cb9-108"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-109"><a href="#cb9-109"></a></span>
+<span id="cb9-110"><a href="#cb9-110"></a><span class="fu">## Challenge</span></span>
+<span id="cb9-111"><a href="#cb9-111"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
+<span id="cb9-112"><a href="#cb9-112"></a></span>
+<span id="cb9-113"><a href="#cb9-113"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-114"><a href="#cb9-114"></a></span>
+<span id="cb9-115"><a href="#cb9-115"></a><span class="fu">## Solution</span></span>
+<span id="cb9-116"><a href="#cb9-116"></a> <span class="in">```r</span></span>
+<span id="cb9-117"><a href="#cb9-117"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb9-118"><a href="#cb9-118"></a><span class="in">```</span></span>
+<span id="cb9-119"><a href="#cb9-119"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
+<span id="cb9-120"><a href="#cb9-120"></a></span>
+<span id="cb9-121"><a href="#cb9-121"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb9-122"><a href="#cb9-122"></a></span>
+<span id="cb9-123"><a href="#cb9-123"></a><span class="fu">## Solution</span></span>
+<span id="cb9-124"><a href="#cb9-124"></a> <span class="in">```r</span></span>
+<span id="cb9-125"><a href="#cb9-125"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
+<span id="cb9-126"><a href="#cb9-126"></a><span class="in">```</span></span>
+<span id="cb9-127"><a href="#cb9-127"></a></span>
+<span id="cb9-128"><a href="#cb9-128"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb9-129"><a href="#cb9-129"></a></span>
+<span id="cb9-130"><a href="#cb9-130"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb9-131"><a href="#cb9-131"></a></span>
+<span id="cb9-132"><a href="#cb9-132"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb9-133"><a href="#cb9-133"></a></span>
+<span id="cb9-134"><a href="#cb9-134"></a><span class="fu">## pandoc fenced div</span></span>
+<span id="cb9-135"><a href="#cb9-135"></a></span>
+<span id="cb9-136"><a href="#cb9-136"></a>::::::::::::::::::::::::::::::::::::::::::: Challenge</span>
+<span id="cb9-137"><a href="#cb9-137"></a></span>
+<span id="cb9-138"><a href="#cb9-138"></a><span class="fu">## Challenge</span></span>
+<span id="cb9-139"><a href="#cb9-139"></a></span>
+<span id="cb9-140"><a href="#cb9-140"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings “hello” and “there” in R</span>
+<span id="cb9-141"><a href="#cb9-141"></a></span>
+<span id="cb9-142"><a href="#cb9-142"></a>:::::::::::::::::::::::: solution</span>
+<span id="cb9-143"><a href="#cb9-143"></a></span>
+<span id="cb9-144"><a href="#cb9-144"></a><span class="fu">## Solution</span></span>
+<span id="cb9-145"><a href="#cb9-145"></a><span class="in">```r</span></span>
+<span id="cb9-146"><a href="#cb9-146"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb9-147"><a href="#cb9-147"></a><span class="in">```</span></span>
+<span id="cb9-148"><a href="#cb9-148"></a></span>
+<span id="cb9-149"><a href="#cb9-149"></a>::::::::::::::::::::::::</span>
+<span id="cb9-150"><a href="#cb9-150"></a></span>
+<span id="cb9-151"><a href="#cb9-151"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
+<span id="cb9-152"><a href="#cb9-152"></a></span>
+<span id="cb9-153"><a href="#cb9-153"></a>:::::::::::::::::::::::: solution</span>
+<span id="cb9-154"><a href="#cb9-154"></a></span>
+<span id="cb9-155"><a href="#cb9-155"></a><span class="fu">## Solution</span></span>
+<span id="cb9-156"><a href="#cb9-156"></a><span class="in">```r</span></span>
+<span id="cb9-157"><a href="#cb9-157"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
+<span id="cb9-158"><a href="#cb9-158"></a><span class="in">```</span></span>
+<span id="cb9-159"><a href="#cb9-159"></a></span>
+<span id="cb9-160"><a href="#cb9-160"></a>::::::::::::::::::::::::</span>
+<span id="cb9-161"><a href="#cb9-161"></a>:::::::::::::::::::::::::::::::::::::::::::</span></code></pre></div>
 </details>
 </div>
 <div id="tljgr00" class="section level2">
@@ -1817,203 +1985,203 @@
 <p>The results for this entry can be found at <a href="survey-tljgr00.html">survey-tljgr00.html</a></p>
 <details>
 <p><summary>Click here to see the markdown generated from the entry</summary></p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1"></a><span class="co">---</span></span>
-<span id="cb9-2"><a href="#cb9-2"></a><span class="an">sandpaper-digest:</span><span class="co"> 4a675e26abd1bef25601bad3091cdf24</span></span>
-<span id="cb9-3"><a href="#cb9-3"></a><span class="an">title:</span><span class="co"> &quot;Results for tljgr00&quot;</span></span>
-<span id="cb9-4"><a href="#cb9-4"></a><span class="co">---</span></span>
-<span id="cb9-5"><a href="#cb9-5"></a></span>
-<span id="cb9-6"><a href="#cb9-6"></a></span>
-<span id="cb9-7"><a href="#cb9-7"></a></span>
-<span id="cb9-8"><a href="#cb9-8"></a></span>
-<span id="cb9-9"><a href="#cb9-9"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
-<span id="cb9-10"><a href="#cb9-10"></a></span>
-<span id="cb9-11"><a href="#cb9-11"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;challenge&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb9-12"><a href="#cb9-12"></a></span>
-<span id="cb9-13"><a href="#cb9-13"></a><span class="fu">## Challenge</span></span>
-<span id="cb9-14"><a href="#cb9-14"></a></span>
-<span id="cb9-15"><a href="#cb9-15"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R. </span>
-<span id="cb9-16"><a href="#cb9-16"></a></span>
-<span id="cb9-17"><a href="#cb9-17"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;solution&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb9-18"><a href="#cb9-18"></a></span>
-<span id="cb9-19"><a href="#cb9-19"></a><span class="fu">## Solution</span></span>
-<span id="cb9-20"><a href="#cb9-20"></a></span>
-<span id="cb9-21"><a href="#cb9-21"></a><span class="in">```r</span></span>
-<span id="cb9-22"><a href="#cb9-22"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
-<span id="cb9-23"><a href="#cb9-23"></a><span class="in">```</span></span>
-<span id="cb9-24"><a href="#cb9-24"></a></span>
-<span id="cb9-25"><a href="#cb9-25"></a><span class="in">```output</span></span>
-<span id="cb9-26"><a href="#cb9-26"></a><span class="in">[1] &quot;hello there&quot;</span></span>
-<span id="cb9-27"><a href="#cb9-27"></a><span class="in">```</span></span>
-<span id="cb9-28"><a href="#cb9-28"></a></span>
-<span id="cb9-29"><a href="#cb9-29"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-30"><a href="#cb9-30"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-31"><a href="#cb9-31"></a></span>
-<span id="cb9-32"><a href="#cb9-32"></a><span class="fu">## {dovetail}</span></span>
-<span id="cb9-33"><a href="#cb9-33"></a></span>
-<span id="cb9-34"><a href="#cb9-34"></a></span>
-<span id="cb9-35"><a href="#cb9-35"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb9-36"><a href="#cb9-36"></a></span>
-<span id="cb9-37"><a href="#cb9-37"></a><span class="fu">## Challenge</span></span>
-<span id="cb9-38"><a href="#cb9-38"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R.</span>
-<span id="cb9-39"><a href="#cb9-39"></a></span>
-<span id="cb9-40"><a href="#cb9-40"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb9-41"><a href="#cb9-41"></a></span>
-<span id="cb9-42"><a href="#cb9-42"></a><span class="fu">## Solution</span></span>
-<span id="cb9-43"><a href="#cb9-43"></a> </span>
-<span id="cb9-44"><a href="#cb9-44"></a><span class="in">```r</span></span>
-<span id="cb9-45"><a href="#cb9-45"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
-<span id="cb9-46"><a href="#cb9-46"></a><span class="in">```</span></span>
-<span id="cb9-47"><a href="#cb9-47"></a></span>
-<span id="cb9-48"><a href="#cb9-48"></a><span class="in">```output</span></span>
-<span id="cb9-49"><a href="#cb9-49"></a><span class="in">[1] &quot;hello there&quot;</span></span>
-<span id="cb9-50"><a href="#cb9-50"></a><span class="in">```</span></span>
-<span id="cb9-51"><a href="#cb9-51"></a></span>
-<span id="cb9-52"><a href="#cb9-52"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-53"><a href="#cb9-53"></a></span>
-<span id="cb9-54"><a href="#cb9-54"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-55"><a href="#cb9-55"></a></span>
-<span id="cb9-56"><a href="#cb9-56"></a></span>
-<span id="cb9-57"><a href="#cb9-57"></a><span class="fu">## pandoc fenced div</span></span>
-<span id="cb9-58"><a href="#cb9-58"></a></span>
-<span id="cb9-59"><a href="#cb9-59"></a>::::::::::::::::::::::::::::: challenge</span>
-<span id="cb9-60"><a href="#cb9-60"></a></span>
-<span id="cb9-61"><a href="#cb9-61"></a><span class="fu">## Challenge</span></span>
-<span id="cb9-62"><a href="#cb9-62"></a></span>
-<span id="cb9-63"><a href="#cb9-63"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R. </span>
-<span id="cb9-64"><a href="#cb9-64"></a></span>
-<span id="cb9-65"><a href="#cb9-65"></a>::::::::::::::::::::: solution</span>
-<span id="cb9-66"><a href="#cb9-66"></a></span>
-<span id="cb9-67"><a href="#cb9-67"></a><span class="fu">## Solution</span></span>
-<span id="cb9-68"><a href="#cb9-68"></a></span>
-<span id="cb9-69"><a href="#cb9-69"></a><span class="in">```r</span></span>
-<span id="cb9-70"><a href="#cb9-70"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
-<span id="cb9-71"><a href="#cb9-71"></a><span class="in">```</span></span>
-<span id="cb9-72"><a href="#cb9-72"></a></span>
-<span id="cb9-73"><a href="#cb9-73"></a><span class="in">```output</span></span>
-<span id="cb9-74"><a href="#cb9-74"></a><span class="in">[1] &quot;hello there&quot;</span></span>
-<span id="cb9-75"><a href="#cb9-75"></a><span class="in">```</span></span>
-<span id="cb9-76"><a href="#cb9-76"></a></span>
-<span id="cb9-77"><a href="#cb9-77"></a>::::::::::::::::::::::::::::::</span>
-<span id="cb9-78"><a href="#cb9-78"></a>:::::::::::::::::::::::::::::::::::::::</span>
-<span id="cb9-79"><a href="#cb9-79"></a></span>
-<span id="cb9-80"><a href="#cb9-80"></a>--------------------------------------------------------------------------------</span>
-<span id="cb9-81"><a href="#cb9-81"></a></span>
-<span id="cb9-82"><a href="#cb9-82"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
-<span id="cb9-83"><a href="#cb9-83"></a></span>
-<span id="cb9-84"><a href="#cb9-84"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;challenge&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb9-85"><a href="#cb9-85"></a></span>
-<span id="cb9-86"><a href="#cb9-86"></a><span class="fu">## Challenge</span></span>
-<span id="cb9-87"><a href="#cb9-87"></a></span>
-<span id="cb9-88"><a href="#cb9-88"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R.</span>
-<span id="cb9-89"><a href="#cb9-89"></a></span>
-<span id="cb9-90"><a href="#cb9-90"></a> <span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;solution&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb9-91"><a href="#cb9-91"></a></span>
-<span id="cb9-92"><a href="#cb9-92"></a><span class="fu">## School Solution</span></span>
-<span id="cb9-93"><a href="#cb9-93"></a></span>
-<span id="cb9-94"><a href="#cb9-94"></a><span class="in">```r</span></span>
-<span id="cb9-95"><a href="#cb9-95"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
-<span id="cb9-96"><a href="#cb9-96"></a><span class="in">```</span></span>
-<span id="cb9-97"><a href="#cb9-97"></a></span>
-<span id="cb9-98"><a href="#cb9-98"></a><span class="in">```output</span></span>
-<span id="cb9-99"><a href="#cb9-99"></a><span class="in">[1] &quot;hello there&quot;</span></span>
-<span id="cb9-100"><a href="#cb9-100"></a><span class="in">```</span></span>
-<span id="cb9-101"><a href="#cb9-101"></a></span>
-<span id="cb9-102"><a href="#cb9-102"></a> <span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-103"><a href="#cb9-103"></a></span>
-<span id="cb9-104"><a href="#cb9-104"></a>Great! Now use <span class="in">`paste0()`</span> to paste together &quot;mono&quot; and &quot;rail&quot; to make &quot;monorail&quot;</span>
-<span id="cb9-105"><a href="#cb9-105"></a></span>
-<span id="cb9-106"><a href="#cb9-106"></a>  <span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;solution&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb9-107"><a href="#cb9-107"></a></span>
-<span id="cb9-108"><a href="#cb9-108"></a><span class="fu">## Fast Solution</span></span>
-<span id="cb9-109"><a href="#cb9-109"></a></span>
-<span id="cb9-110"><a href="#cb9-110"></a><span class="in">```r</span></span>
-<span id="cb9-111"><a href="#cb9-111"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>,<span class="st">&quot;rail&quot;</span>)</span>
-<span id="cb9-112"><a href="#cb9-112"></a><span class="in">```</span></span>
-<span id="cb9-113"><a href="#cb9-113"></a></span>
-<span id="cb9-114"><a href="#cb9-114"></a><span class="in">```output</span></span>
-<span id="cb9-115"><a href="#cb9-115"></a><span class="in">[1] &quot;monorail&quot;</span></span>
-<span id="cb9-116"><a href="#cb9-116"></a><span class="in">```</span></span>
-<span id="cb9-117"><a href="#cb9-117"></a></span>
-<span id="cb9-118"><a href="#cb9-118"></a> <span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-119"><a href="#cb9-119"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-120"><a href="#cb9-120"></a></span>
-<span id="cb9-121"><a href="#cb9-121"></a><span class="fu">## {dovetail}</span></span>
-<span id="cb9-122"><a href="#cb9-122"></a></span>
-<span id="cb9-123"><a href="#cb9-123"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb9-124"><a href="#cb9-124"></a></span>
-<span id="cb9-125"><a href="#cb9-125"></a><span class="fu">## Challenge</span></span>
-<span id="cb9-126"><a href="#cb9-126"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R.</span>
-<span id="cb9-127"><a href="#cb9-127"></a></span>
-<span id="cb9-128"><a href="#cb9-128"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb9-129"><a href="#cb9-129"></a></span>
-<span id="cb9-130"><a href="#cb9-130"></a><span class="fu">## School Solution</span></span>
-<span id="cb9-131"><a href="#cb9-131"></a> </span>
-<span id="cb9-132"><a href="#cb9-132"></a><span class="in">```r</span></span>
-<span id="cb9-133"><a href="#cb9-133"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
-<span id="cb9-134"><a href="#cb9-134"></a><span class="in">```</span></span>
-<span id="cb9-135"><a href="#cb9-135"></a></span>
-<span id="cb9-136"><a href="#cb9-136"></a><span class="in">```output</span></span>
-<span id="cb9-137"><a href="#cb9-137"></a><span class="in">[1] &quot;hello there&quot;</span></span>
-<span id="cb9-138"><a href="#cb9-138"></a><span class="in">```</span></span>
-<span id="cb9-139"><a href="#cb9-139"></a></span>
-<span id="cb9-140"><a href="#cb9-140"></a>Great! Now use <span class="in">`paste0()`</span> to paste together &quot;mono&quot; and &quot;rail&quot; to make &quot;monorail&quot;</span>
-<span id="cb9-141"><a href="#cb9-141"></a></span>
-<span id="cb9-142"><a href="#cb9-142"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb9-143"><a href="#cb9-143"></a></span>
-<span id="cb9-144"><a href="#cb9-144"></a><span class="fu">## Fast Solution</span></span>
-<span id="cb9-145"><a href="#cb9-145"></a> </span>
-<span id="cb9-146"><a href="#cb9-146"></a><span class="in">```r</span></span>
-<span id="cb9-147"><a href="#cb9-147"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>,<span class="st">&quot;rail&quot;</span>)</span>
-<span id="cb9-148"><a href="#cb9-148"></a><span class="in">```</span></span>
-<span id="cb9-149"><a href="#cb9-149"></a></span>
-<span id="cb9-150"><a href="#cb9-150"></a><span class="in">```output</span></span>
-<span id="cb9-151"><a href="#cb9-151"></a><span class="in">[1] &quot;monorail&quot;</span></span>
-<span id="cb9-152"><a href="#cb9-152"></a><span class="in">```</span></span>
-<span id="cb9-153"><a href="#cb9-153"></a></span>
-<span id="cb9-154"><a href="#cb9-154"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-155"><a href="#cb9-155"></a></span>
-<span id="cb9-156"><a href="#cb9-156"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-157"><a href="#cb9-157"></a></span>
-<span id="cb9-158"><a href="#cb9-158"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb9-159"><a href="#cb9-159"></a></span>
-<span id="cb9-160"><a href="#cb9-160"></a><span class="fu">## pandoc fenced div</span></span>
-<span id="cb9-161"><a href="#cb9-161"></a></span>
-<span id="cb9-162"><a href="#cb9-162"></a>::::::::::::::::::::::::::::: challenge</span>
-<span id="cb9-163"><a href="#cb9-163"></a></span>
-<span id="cb9-164"><a href="#cb9-164"></a><span class="fu">## Challenge</span></span>
-<span id="cb9-165"><a href="#cb9-165"></a></span>
-<span id="cb9-166"><a href="#cb9-166"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R.</span>
-<span id="cb9-167"><a href="#cb9-167"></a></span>
-<span id="cb9-168"><a href="#cb9-168"></a>::::::::::::::::::::: solution</span>
-<span id="cb9-169"><a href="#cb9-169"></a></span>
-<span id="cb9-170"><a href="#cb9-170"></a><span class="fu">## School Solution</span></span>
-<span id="cb9-171"><a href="#cb9-171"></a></span>
-<span id="cb9-172"><a href="#cb9-172"></a><span class="in">```r</span></span>
-<span id="cb9-173"><a href="#cb9-173"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
-<span id="cb9-174"><a href="#cb9-174"></a><span class="in">```</span></span>
-<span id="cb9-175"><a href="#cb9-175"></a></span>
-<span id="cb9-176"><a href="#cb9-176"></a><span class="in">```output</span></span>
-<span id="cb9-177"><a href="#cb9-177"></a><span class="in">[1] &quot;hello there&quot;</span></span>
-<span id="cb9-178"><a href="#cb9-178"></a><span class="in">```</span></span>
-<span id="cb9-179"><a href="#cb9-179"></a></span>
-<span id="cb9-180"><a href="#cb9-180"></a>::::::::::::::::::::::::::::::</span>
-<span id="cb9-181"><a href="#cb9-181"></a></span>
-<span id="cb9-182"><a href="#cb9-182"></a>Great! Now use <span class="in">`paste0()`</span> to paste together &quot;mono&quot; and &quot;rail&quot; to make &quot;monorail&quot;</span>
-<span id="cb9-183"><a href="#cb9-183"></a></span>
-<span id="cb9-184"><a href="#cb9-184"></a>::::::::::::::::::::: solution</span>
-<span id="cb9-185"><a href="#cb9-185"></a></span>
-<span id="cb9-186"><a href="#cb9-186"></a><span class="fu">## Fast Solution</span></span>
-<span id="cb9-187"><a href="#cb9-187"></a></span>
-<span id="cb9-188"><a href="#cb9-188"></a><span class="in">```r</span></span>
-<span id="cb9-189"><a href="#cb9-189"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>,<span class="st">&quot;rail&quot;</span>)</span>
-<span id="cb9-190"><a href="#cb9-190"></a><span class="in">```</span></span>
-<span id="cb9-191"><a href="#cb9-191"></a></span>
-<span id="cb9-192"><a href="#cb9-192"></a><span class="in">```output</span></span>
-<span id="cb9-193"><a href="#cb9-193"></a><span class="in">[1] &quot;monorail&quot;</span></span>
-<span id="cb9-194"><a href="#cb9-194"></a><span class="in">```</span></span>
-<span id="cb9-195"><a href="#cb9-195"></a></span>
-<span id="cb9-196"><a href="#cb9-196"></a>::::::::::::::::::::::::::::::</span>
-<span id="cb9-197"><a href="#cb9-197"></a>:::::::::::::::::::::::::::::::::::::::</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb10-1"><a href="#cb10-1"></a><span class="co">---</span></span>
+<span id="cb10-2"><a href="#cb10-2"></a><span class="an">sandpaper-digest:</span><span class="co"> 4a675e26abd1bef25601bad3091cdf24</span></span>
+<span id="cb10-3"><a href="#cb10-3"></a><span class="an">title:</span><span class="co"> &quot;Results for tljgr00&quot;</span></span>
+<span id="cb10-4"><a href="#cb10-4"></a><span class="co">---</span></span>
+<span id="cb10-5"><a href="#cb10-5"></a></span>
+<span id="cb10-6"><a href="#cb10-6"></a></span>
+<span id="cb10-7"><a href="#cb10-7"></a></span>
+<span id="cb10-8"><a href="#cb10-8"></a></span>
+<span id="cb10-9"><a href="#cb10-9"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
+<span id="cb10-10"><a href="#cb10-10"></a></span>
+<span id="cb10-11"><a href="#cb10-11"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;challenge&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb10-12"><a href="#cb10-12"></a></span>
+<span id="cb10-13"><a href="#cb10-13"></a><span class="fu">## Challenge</span></span>
+<span id="cb10-14"><a href="#cb10-14"></a></span>
+<span id="cb10-15"><a href="#cb10-15"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R. </span>
+<span id="cb10-16"><a href="#cb10-16"></a></span>
+<span id="cb10-17"><a href="#cb10-17"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;solution&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb10-18"><a href="#cb10-18"></a></span>
+<span id="cb10-19"><a href="#cb10-19"></a><span class="fu">## Solution</span></span>
+<span id="cb10-20"><a href="#cb10-20"></a></span>
+<span id="cb10-21"><a href="#cb10-21"></a><span class="in">```r</span></span>
+<span id="cb10-22"><a href="#cb10-22"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
+<span id="cb10-23"><a href="#cb10-23"></a><span class="in">```</span></span>
+<span id="cb10-24"><a href="#cb10-24"></a></span>
+<span id="cb10-25"><a href="#cb10-25"></a><span class="in">```output</span></span>
+<span id="cb10-26"><a href="#cb10-26"></a><span class="in">[1] &quot;hello there&quot;</span></span>
+<span id="cb10-27"><a href="#cb10-27"></a><span class="in">```</span></span>
+<span id="cb10-28"><a href="#cb10-28"></a></span>
+<span id="cb10-29"><a href="#cb10-29"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-30"><a href="#cb10-30"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-31"><a href="#cb10-31"></a></span>
+<span id="cb10-32"><a href="#cb10-32"></a><span class="fu">## {dovetail}</span></span>
+<span id="cb10-33"><a href="#cb10-33"></a></span>
+<span id="cb10-34"><a href="#cb10-34"></a></span>
+<span id="cb10-35"><a href="#cb10-35"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb10-36"><a href="#cb10-36"></a></span>
+<span id="cb10-37"><a href="#cb10-37"></a><span class="fu">## Challenge</span></span>
+<span id="cb10-38"><a href="#cb10-38"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R.</span>
+<span id="cb10-39"><a href="#cb10-39"></a></span>
+<span id="cb10-40"><a href="#cb10-40"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb10-41"><a href="#cb10-41"></a></span>
+<span id="cb10-42"><a href="#cb10-42"></a><span class="fu">## Solution</span></span>
+<span id="cb10-43"><a href="#cb10-43"></a> </span>
+<span id="cb10-44"><a href="#cb10-44"></a><span class="in">```r</span></span>
+<span id="cb10-45"><a href="#cb10-45"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
+<span id="cb10-46"><a href="#cb10-46"></a><span class="in">```</span></span>
+<span id="cb10-47"><a href="#cb10-47"></a></span>
+<span id="cb10-48"><a href="#cb10-48"></a><span class="in">```output</span></span>
+<span id="cb10-49"><a href="#cb10-49"></a><span class="in">[1] &quot;hello there&quot;</span></span>
+<span id="cb10-50"><a href="#cb10-50"></a><span class="in">```</span></span>
+<span id="cb10-51"><a href="#cb10-51"></a></span>
+<span id="cb10-52"><a href="#cb10-52"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-53"><a href="#cb10-53"></a></span>
+<span id="cb10-54"><a href="#cb10-54"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-55"><a href="#cb10-55"></a></span>
+<span id="cb10-56"><a href="#cb10-56"></a></span>
+<span id="cb10-57"><a href="#cb10-57"></a><span class="fu">## pandoc fenced div</span></span>
+<span id="cb10-58"><a href="#cb10-58"></a></span>
+<span id="cb10-59"><a href="#cb10-59"></a>::::::::::::::::::::::::::::: challenge</span>
+<span id="cb10-60"><a href="#cb10-60"></a></span>
+<span id="cb10-61"><a href="#cb10-61"></a><span class="fu">## Challenge</span></span>
+<span id="cb10-62"><a href="#cb10-62"></a></span>
+<span id="cb10-63"><a href="#cb10-63"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R. </span>
+<span id="cb10-64"><a href="#cb10-64"></a></span>
+<span id="cb10-65"><a href="#cb10-65"></a>::::::::::::::::::::: solution</span>
+<span id="cb10-66"><a href="#cb10-66"></a></span>
+<span id="cb10-67"><a href="#cb10-67"></a><span class="fu">## Solution</span></span>
+<span id="cb10-68"><a href="#cb10-68"></a></span>
+<span id="cb10-69"><a href="#cb10-69"></a><span class="in">```r</span></span>
+<span id="cb10-70"><a href="#cb10-70"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
+<span id="cb10-71"><a href="#cb10-71"></a><span class="in">```</span></span>
+<span id="cb10-72"><a href="#cb10-72"></a></span>
+<span id="cb10-73"><a href="#cb10-73"></a><span class="in">```output</span></span>
+<span id="cb10-74"><a href="#cb10-74"></a><span class="in">[1] &quot;hello there&quot;</span></span>
+<span id="cb10-75"><a href="#cb10-75"></a><span class="in">```</span></span>
+<span id="cb10-76"><a href="#cb10-76"></a></span>
+<span id="cb10-77"><a href="#cb10-77"></a>::::::::::::::::::::::::::::::</span>
+<span id="cb10-78"><a href="#cb10-78"></a>:::::::::::::::::::::::::::::::::::::::</span>
+<span id="cb10-79"><a href="#cb10-79"></a></span>
+<span id="cb10-80"><a href="#cb10-80"></a>--------------------------------------------------------------------------------</span>
+<span id="cb10-81"><a href="#cb10-81"></a></span>
+<span id="cb10-82"><a href="#cb10-82"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
+<span id="cb10-83"><a href="#cb10-83"></a></span>
+<span id="cb10-84"><a href="#cb10-84"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;challenge&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb10-85"><a href="#cb10-85"></a></span>
+<span id="cb10-86"><a href="#cb10-86"></a><span class="fu">## Challenge</span></span>
+<span id="cb10-87"><a href="#cb10-87"></a></span>
+<span id="cb10-88"><a href="#cb10-88"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R.</span>
+<span id="cb10-89"><a href="#cb10-89"></a></span>
+<span id="cb10-90"><a href="#cb10-90"></a> <span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;solution&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb10-91"><a href="#cb10-91"></a></span>
+<span id="cb10-92"><a href="#cb10-92"></a><span class="fu">## School Solution</span></span>
+<span id="cb10-93"><a href="#cb10-93"></a></span>
+<span id="cb10-94"><a href="#cb10-94"></a><span class="in">```r</span></span>
+<span id="cb10-95"><a href="#cb10-95"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
+<span id="cb10-96"><a href="#cb10-96"></a><span class="in">```</span></span>
+<span id="cb10-97"><a href="#cb10-97"></a></span>
+<span id="cb10-98"><a href="#cb10-98"></a><span class="in">```output</span></span>
+<span id="cb10-99"><a href="#cb10-99"></a><span class="in">[1] &quot;hello there&quot;</span></span>
+<span id="cb10-100"><a href="#cb10-100"></a><span class="in">```</span></span>
+<span id="cb10-101"><a href="#cb10-101"></a></span>
+<span id="cb10-102"><a href="#cb10-102"></a> <span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-103"><a href="#cb10-103"></a></span>
+<span id="cb10-104"><a href="#cb10-104"></a>Great! Now use <span class="in">`paste0()`</span> to paste together &quot;mono&quot; and &quot;rail&quot; to make &quot;monorail&quot;</span>
+<span id="cb10-105"><a href="#cb10-105"></a></span>
+<span id="cb10-106"><a href="#cb10-106"></a>  <span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;solution&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb10-107"><a href="#cb10-107"></a></span>
+<span id="cb10-108"><a href="#cb10-108"></a><span class="fu">## Fast Solution</span></span>
+<span id="cb10-109"><a href="#cb10-109"></a></span>
+<span id="cb10-110"><a href="#cb10-110"></a><span class="in">```r</span></span>
+<span id="cb10-111"><a href="#cb10-111"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>,<span class="st">&quot;rail&quot;</span>)</span>
+<span id="cb10-112"><a href="#cb10-112"></a><span class="in">```</span></span>
+<span id="cb10-113"><a href="#cb10-113"></a></span>
+<span id="cb10-114"><a href="#cb10-114"></a><span class="in">```output</span></span>
+<span id="cb10-115"><a href="#cb10-115"></a><span class="in">[1] &quot;monorail&quot;</span></span>
+<span id="cb10-116"><a href="#cb10-116"></a><span class="in">```</span></span>
+<span id="cb10-117"><a href="#cb10-117"></a></span>
+<span id="cb10-118"><a href="#cb10-118"></a> <span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-119"><a href="#cb10-119"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-120"><a href="#cb10-120"></a></span>
+<span id="cb10-121"><a href="#cb10-121"></a><span class="fu">## {dovetail}</span></span>
+<span id="cb10-122"><a href="#cb10-122"></a></span>
+<span id="cb10-123"><a href="#cb10-123"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb10-124"><a href="#cb10-124"></a></span>
+<span id="cb10-125"><a href="#cb10-125"></a><span class="fu">## Challenge</span></span>
+<span id="cb10-126"><a href="#cb10-126"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R.</span>
+<span id="cb10-127"><a href="#cb10-127"></a></span>
+<span id="cb10-128"><a href="#cb10-128"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb10-129"><a href="#cb10-129"></a></span>
+<span id="cb10-130"><a href="#cb10-130"></a><span class="fu">## School Solution</span></span>
+<span id="cb10-131"><a href="#cb10-131"></a> </span>
+<span id="cb10-132"><a href="#cb10-132"></a><span class="in">```r</span></span>
+<span id="cb10-133"><a href="#cb10-133"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
+<span id="cb10-134"><a href="#cb10-134"></a><span class="in">```</span></span>
+<span id="cb10-135"><a href="#cb10-135"></a></span>
+<span id="cb10-136"><a href="#cb10-136"></a><span class="in">```output</span></span>
+<span id="cb10-137"><a href="#cb10-137"></a><span class="in">[1] &quot;hello there&quot;</span></span>
+<span id="cb10-138"><a href="#cb10-138"></a><span class="in">```</span></span>
+<span id="cb10-139"><a href="#cb10-139"></a></span>
+<span id="cb10-140"><a href="#cb10-140"></a>Great! Now use <span class="in">`paste0()`</span> to paste together &quot;mono&quot; and &quot;rail&quot; to make &quot;monorail&quot;</span>
+<span id="cb10-141"><a href="#cb10-141"></a></span>
+<span id="cb10-142"><a href="#cb10-142"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb10-143"><a href="#cb10-143"></a></span>
+<span id="cb10-144"><a href="#cb10-144"></a><span class="fu">## Fast Solution</span></span>
+<span id="cb10-145"><a href="#cb10-145"></a> </span>
+<span id="cb10-146"><a href="#cb10-146"></a><span class="in">```r</span></span>
+<span id="cb10-147"><a href="#cb10-147"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>,<span class="st">&quot;rail&quot;</span>)</span>
+<span id="cb10-148"><a href="#cb10-148"></a><span class="in">```</span></span>
+<span id="cb10-149"><a href="#cb10-149"></a></span>
+<span id="cb10-150"><a href="#cb10-150"></a><span class="in">```output</span></span>
+<span id="cb10-151"><a href="#cb10-151"></a><span class="in">[1] &quot;monorail&quot;</span></span>
+<span id="cb10-152"><a href="#cb10-152"></a><span class="in">```</span></span>
+<span id="cb10-153"><a href="#cb10-153"></a></span>
+<span id="cb10-154"><a href="#cb10-154"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-155"><a href="#cb10-155"></a></span>
+<span id="cb10-156"><a href="#cb10-156"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-157"><a href="#cb10-157"></a></span>
+<span id="cb10-158"><a href="#cb10-158"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb10-159"><a href="#cb10-159"></a></span>
+<span id="cb10-160"><a href="#cb10-160"></a><span class="fu">## pandoc fenced div</span></span>
+<span id="cb10-161"><a href="#cb10-161"></a></span>
+<span id="cb10-162"><a href="#cb10-162"></a>::::::::::::::::::::::::::::: challenge</span>
+<span id="cb10-163"><a href="#cb10-163"></a></span>
+<span id="cb10-164"><a href="#cb10-164"></a><span class="fu">## Challenge</span></span>
+<span id="cb10-165"><a href="#cb10-165"></a></span>
+<span id="cb10-166"><a href="#cb10-166"></a>Use the <span class="in">`paste()`</span> function to concatenate the strings &quot;hello&quot; and &quot;there&quot; in R.</span>
+<span id="cb10-167"><a href="#cb10-167"></a></span>
+<span id="cb10-168"><a href="#cb10-168"></a>::::::::::::::::::::: solution</span>
+<span id="cb10-169"><a href="#cb10-169"></a></span>
+<span id="cb10-170"><a href="#cb10-170"></a><span class="fu">## School Solution</span></span>
+<span id="cb10-171"><a href="#cb10-171"></a></span>
+<span id="cb10-172"><a href="#cb10-172"></a><span class="in">```r</span></span>
+<span id="cb10-173"><a href="#cb10-173"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>,<span class="st">&quot;there&quot;</span>)</span>
+<span id="cb10-174"><a href="#cb10-174"></a><span class="in">```</span></span>
+<span id="cb10-175"><a href="#cb10-175"></a></span>
+<span id="cb10-176"><a href="#cb10-176"></a><span class="in">```output</span></span>
+<span id="cb10-177"><a href="#cb10-177"></a><span class="in">[1] &quot;hello there&quot;</span></span>
+<span id="cb10-178"><a href="#cb10-178"></a><span class="in">```</span></span>
+<span id="cb10-179"><a href="#cb10-179"></a></span>
+<span id="cb10-180"><a href="#cb10-180"></a>::::::::::::::::::::::::::::::</span>
+<span id="cb10-181"><a href="#cb10-181"></a></span>
+<span id="cb10-182"><a href="#cb10-182"></a>Great! Now use <span class="in">`paste0()`</span> to paste together &quot;mono&quot; and &quot;rail&quot; to make &quot;monorail&quot;</span>
+<span id="cb10-183"><a href="#cb10-183"></a></span>
+<span id="cb10-184"><a href="#cb10-184"></a>::::::::::::::::::::: solution</span>
+<span id="cb10-185"><a href="#cb10-185"></a></span>
+<span id="cb10-186"><a href="#cb10-186"></a><span class="fu">## Fast Solution</span></span>
+<span id="cb10-187"><a href="#cb10-187"></a></span>
+<span id="cb10-188"><a href="#cb10-188"></a><span class="in">```r</span></span>
+<span id="cb10-189"><a href="#cb10-189"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>,<span class="st">&quot;rail&quot;</span>)</span>
+<span id="cb10-190"><a href="#cb10-190"></a><span class="in">```</span></span>
+<span id="cb10-191"><a href="#cb10-191"></a></span>
+<span id="cb10-192"><a href="#cb10-192"></a><span class="in">```output</span></span>
+<span id="cb10-193"><a href="#cb10-193"></a><span class="in">[1] &quot;monorail&quot;</span></span>
+<span id="cb10-194"><a href="#cb10-194"></a><span class="in">```</span></span>
+<span id="cb10-195"><a href="#cb10-195"></a></span>
+<span id="cb10-196"><a href="#cb10-196"></a>::::::::::::::::::::::::::::::</span>
+<span id="cb10-197"><a href="#cb10-197"></a>:::::::::::::::::::::::::::::::::::::::</span></code></pre></div>
 </details>
 </div>
 <div id="wonor45" class="section level2">
@@ -2021,208 +2189,208 @@
 <p>The results for this entry can be found at <a href="survey-wonor45.html">survey-wonor45.html</a></p>
 <details>
 <p><summary>Click here to see the markdown generated from the entry</summary></p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb10-1"><a href="#cb10-1"></a><span class="co">---</span></span>
-<span id="cb10-2"><a href="#cb10-2"></a><span class="an">sandpaper-digest:</span><span class="co"> 59512942bc76afd89a40d70f108f8ebe</span></span>
-<span id="cb10-3"><a href="#cb10-3"></a><span class="an">title:</span><span class="co"> &quot;Results for wonor45&quot;</span></span>
-<span id="cb10-4"><a href="#cb10-4"></a><span class="co">---</span></span>
-<span id="cb10-5"><a href="#cb10-5"></a></span>
-<span id="cb10-6"><a href="#cb10-6"></a><span class="fu"># Challenge: Simple Nested</span></span>
-<span id="cb10-7"><a href="#cb10-7"></a></span>
-<span id="cb10-8"><a href="#cb10-8"></a>Please write your answers for the simple nested challenge below</span>
-<span id="cb10-9"><a href="#cb10-9"></a></span>
-<span id="cb10-10"><a href="#cb10-10"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
-<span id="cb10-11"><a href="#cb10-11"></a></span>
-<span id="cb10-12"><a href="#cb10-12"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb10-13"><a href="#cb10-13"></a></span>
-<span id="cb10-14"><a href="#cb10-14"></a></span>
-<span id="cb10-15"><a href="#cb10-15"></a><span class="fu">## Challenge</span></span>
-<span id="cb10-16"><a href="#cb10-16"></a></span>
-<span id="cb10-17"><a href="#cb10-17"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
-<span id="cb10-18"><a href="#cb10-18"></a></span>
-<span id="cb10-19"><a href="#cb10-19"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb10-20"><a href="#cb10-20"></a></span>
-<span id="cb10-21"><a href="#cb10-21"></a><span class="fu">## Solution</span></span>
-<span id="cb10-22"><a href="#cb10-22"></a></span>
-<span id="cb10-23"><a href="#cb10-23"></a><span class="in">```r</span></span>
-<span id="cb10-24"><a href="#cb10-24"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb10-25"><a href="#cb10-25"></a><span class="in">```</span></span>
-<span id="cb10-26"><a href="#cb10-26"></a></span>
-<span id="cb10-27"><a href="#cb10-27"></a><span class="in">```output</span></span>
-<span id="cb10-28"><a href="#cb10-28"></a><span class="in">&quot;hello there&quot;</span></span>
-<span id="cb10-29"><a href="#cb10-29"></a><span class="in">```</span></span>
-<span id="cb10-30"><a href="#cb10-30"></a></span>
-<span id="cb10-31"><a href="#cb10-31"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb10-32"><a href="#cb10-32"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb10-33"><a href="#cb10-33"></a></span>
-<span id="cb10-34"><a href="#cb10-34"></a></span>
-<span id="cb10-35"><a href="#cb10-35"></a></span>
-<span id="cb10-36"><a href="#cb10-36"></a><span class="fu">## {dovetail}</span></span>
-<span id="cb10-37"><a href="#cb10-37"></a></span>
-<span id="cb10-38"><a href="#cb10-38"></a></span>
-<span id="cb10-39"><a href="#cb10-39"></a></span>
-<span id="cb10-40"><a href="#cb10-40"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb10-41"><a href="#cb10-41"></a></span>
-<span id="cb10-42"><a href="#cb10-42"></a><span class="fu">## Challenge</span></span>
-<span id="cb10-43"><a href="#cb10-43"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
-<span id="cb10-44"><a href="#cb10-44"></a></span>
-<span id="cb10-45"><a href="#cb10-45"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb10-46"><a href="#cb10-46"></a></span>
-<span id="cb10-47"><a href="#cb10-47"></a><span class="fu">## Solution</span></span>
-<span id="cb10-48"><a href="#cb10-48"></a> </span>
-<span id="cb10-49"><a href="#cb10-49"></a><span class="in">```r</span></span>
-<span id="cb10-50"><a href="#cb10-50"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb10-51"><a href="#cb10-51"></a><span class="in">```</span></span>
-<span id="cb10-52"><a href="#cb10-52"></a></span>
-<span id="cb10-53"><a href="#cb10-53"></a><span class="in">```output</span></span>
-<span id="cb10-54"><a href="#cb10-54"></a><span class="in">&quot;hello there&quot;</span></span>
-<span id="cb10-55"><a href="#cb10-55"></a><span class="in">```</span></span>
-<span id="cb10-56"><a href="#cb10-56"></a></span>
-<span id="cb10-57"><a href="#cb10-57"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb10-58"><a href="#cb10-58"></a></span>
-<span id="cb10-59"><a href="#cb10-59"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb10-60"><a href="#cb10-60"></a></span>
-<span id="cb10-61"><a href="#cb10-61"></a><span class="fu">## pandoc fenced div</span></span>
-<span id="cb10-62"><a href="#cb10-62"></a></span>
-<span id="cb10-63"><a href="#cb10-63"></a>::::::::::::::::::::::::::::::: challenge</span>
-<span id="cb10-64"><a href="#cb10-64"></a></span>
-<span id="cb10-65"><a href="#cb10-65"></a><span class="fu">## Challenge</span></span>
-<span id="cb10-66"><a href="#cb10-66"></a></span>
-<span id="cb10-67"><a href="#cb10-67"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
-<span id="cb10-68"><a href="#cb10-68"></a></span>
-<span id="cb10-69"><a href="#cb10-69"></a>:::::::::::::::::::: solution</span>
-<span id="cb10-70"><a href="#cb10-70"></a></span>
-<span id="cb10-71"><a href="#cb10-71"></a><span class="fu">## Solution</span></span>
-<span id="cb10-72"><a href="#cb10-72"></a></span>
-<span id="cb10-73"><a href="#cb10-73"></a><span class="in">```r</span></span>
-<span id="cb10-74"><a href="#cb10-74"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb10-75"><a href="#cb10-75"></a><span class="in">```</span></span>
-<span id="cb10-76"><a href="#cb10-76"></a></span>
-<span id="cb10-77"><a href="#cb10-77"></a><span class="in">```output</span></span>
-<span id="cb10-78"><a href="#cb10-78"></a><span class="in">&quot;hello there&quot;</span></span>
-<span id="cb10-79"><a href="#cb10-79"></a><span class="in">```</span></span>
-<span id="cb10-80"><a href="#cb10-80"></a>::::::::::::::::::::</span>
-<span id="cb10-81"><a href="#cb10-81"></a>:::::::::::::::::::::::::::::::</span>
-<span id="cb10-82"><a href="#cb10-82"></a></span>
-<span id="cb10-83"><a href="#cb10-83"></a>--------------------------------------------------------------------------------</span>
-<span id="cb10-84"><a href="#cb10-84"></a></span>
-<span id="cb10-85"><a href="#cb10-85"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
-<span id="cb10-86"><a href="#cb10-86"></a></span>
-<span id="cb10-87"><a href="#cb10-87"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb10-88"><a href="#cb10-88"></a></span>
-<span id="cb10-89"><a href="#cb10-89"></a></span>
-<span id="cb10-90"><a href="#cb10-90"></a><span class="fu">## Challenge</span></span>
-<span id="cb10-91"><a href="#cb10-91"></a></span>
-<span id="cb10-92"><a href="#cb10-92"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
-<span id="cb10-93"><a href="#cb10-93"></a></span>
-<span id="cb10-94"><a href="#cb10-94"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb10-95"><a href="#cb10-95"></a></span>
-<span id="cb10-96"><a href="#cb10-96"></a><span class="fu">## School Solution</span></span>
-<span id="cb10-97"><a href="#cb10-97"></a></span>
-<span id="cb10-98"><a href="#cb10-98"></a><span class="in">```r</span></span>
-<span id="cb10-99"><a href="#cb10-99"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb10-100"><a href="#cb10-100"></a><span class="in">```</span></span>
-<span id="cb10-101"><a href="#cb10-101"></a></span>
-<span id="cb10-102"><a href="#cb10-102"></a><span class="in">```output</span></span>
-<span id="cb10-103"><a href="#cb10-103"></a><span class="in">&quot;hello there&quot;</span></span>
-<span id="cb10-104"><a href="#cb10-104"></a><span class="in">```</span></span>
-<span id="cb10-105"><a href="#cb10-105"></a></span>
-<span id="cb10-106"><a href="#cb10-106"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb10-107"><a href="#cb10-107"></a></span>
-<span id="cb10-108"><a href="#cb10-108"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
-<span id="cb10-109"><a href="#cb10-109"></a></span>
-<span id="cb10-110"><a href="#cb10-110"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb10-111"><a href="#cb10-111"></a></span>
-<span id="cb10-112"><a href="#cb10-112"></a><span class="fu">## Fast Solution</span></span>
-<span id="cb10-113"><a href="#cb10-113"></a></span>
-<span id="cb10-114"><a href="#cb10-114"></a><span class="in">```r</span></span>
-<span id="cb10-115"><a href="#cb10-115"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
-<span id="cb10-116"><a href="#cb10-116"></a><span class="in">```</span></span>
-<span id="cb10-117"><a href="#cb10-117"></a></span>
-<span id="cb10-118"><a href="#cb10-118"></a><span class="in">```output</span></span>
-<span id="cb10-119"><a href="#cb10-119"></a><span class="in">&quot;monorail&quot;</span></span>
-<span id="cb10-120"><a href="#cb10-120"></a><span class="in">```</span></span>
-<span id="cb10-121"><a href="#cb10-121"></a></span>
-<span id="cb10-122"><a href="#cb10-122"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb10-123"><a href="#cb10-123"></a><span class="kw">&lt;/div&gt;</span></span>
-<span id="cb10-124"><a href="#cb10-124"></a></span>
-<span id="cb10-125"><a href="#cb10-125"></a></span>
-<span id="cb10-126"><a href="#cb10-126"></a><span class="fu">## {dovetail}</span></span>
-<span id="cb10-127"><a href="#cb10-127"></a></span>
-<span id="cb10-128"><a href="#cb10-128"></a></span>
-<span id="cb10-129"><a href="#cb10-129"></a></span>
-<span id="cb10-130"><a href="#cb10-130"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb10-131"><a href="#cb10-131"></a></span>
-<span id="cb10-132"><a href="#cb10-132"></a><span class="fu">## Challenge</span></span>
-<span id="cb10-133"><a href="#cb10-133"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
-<span id="cb10-134"><a href="#cb10-134"></a></span>
-<span id="cb10-135"><a href="#cb10-135"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
-<span id="cb10-136"><a href="#cb10-136"></a></span>
-<span id="cb10-137"><a href="#cb10-137"></a><span class="fu">## School Solution</span></span>
-<span id="cb10-138"><a href="#cb10-138"></a> </span>
-<span id="cb10-139"><a href="#cb10-139"></a><span class="in">```r</span></span>
-<span id="cb10-140"><a href="#cb10-140"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
-<span id="cb10-141"><a href="#cb10-141"></a><span class="in">```</span></span>
-<span id="cb10-142"><a href="#cb10-142"></a></span>
-<span id="cb10-143"><a href="#cb10-143"></a><span class="in">```output</span></span>
-<span id="cb10-144"><a href="#cb10-144"></a><span class="in">&quot;hello there&quot;</span></span>
-<span id="cb10-145"><a href="#cb10-145"></a><span class="in"># ```</span></span>
-<span id="cb10-146"><a href="#cb10-146"></a></span>
-<span id="cb10-147"><a href="#cb10-147"></a><span class="in">Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail”</span></span>
-<span id="cb10-148"><a href="#cb10-148"></a></span>
-<span id="cb10-149"><a href="#cb10-149"></a><span class="in">&lt;div class=&#39;solution&#39; markdown=&#39;1&#39;&gt;</span></span>
-<span id="cb10-150"><a href="#cb10-150"></a></span>
-<span id="cb10-151"><a href="#cb10-151"></a><span class="in">## Fast Solution</span></span>
-<span id="cb10-152"><a href="#cb10-152"></a><span class="in"> </span></span>
-<span id="cb10-153"><a href="#cb10-153"></a><span class="in">```r</span></span>
-<span id="cb10-154"><a href="#cb10-154"></a><span class="in">paste0(&quot;mono&quot;, &quot;rail&quot;)</span></span>
-<span id="cb10-155"><a href="#cb10-155"></a><span class="in">```</span></span>
-<span id="cb10-156"><a href="#cb10-156"></a></span>
-<span id="cb10-157"><a href="#cb10-157"></a><span class="in">```output</span></span>
-<span id="cb10-158"><a href="#cb10-158"></a><span class="in">&quot;monorail&quot;</span></span>
-<span id="cb10-159"><a href="#cb10-159"></a><span class="in"># ```</span></span>
-<span id="cb10-160"><a href="#cb10-160"></a></span>
-<span id="cb10-161"><a href="#cb10-161"></a><span class="in">&lt;/div&gt;</span></span>
-<span id="cb10-162"><a href="#cb10-162"></a></span>
-<span id="cb10-163"><a href="#cb10-163"></a><span class="in">&lt;/div&gt;</span></span>
-<span id="cb10-164"><a href="#cb10-164"></a></span>
-<span id="cb10-165"><a href="#cb10-165"></a><span class="in">&lt;/div&gt;</span></span>
-<span id="cb10-166"><a href="#cb10-166"></a></span>
-<span id="cb10-167"><a href="#cb10-167"></a><span class="in">## pandoc fenced div</span></span>
-<span id="cb10-168"><a href="#cb10-168"></a></span>
-<span id="cb10-169"><a href="#cb10-169"></a><span class="in">::::::::::::::::::::::::::::::: challenge</span></span>
-<span id="cb10-170"><a href="#cb10-170"></a></span>
-<span id="cb10-171"><a href="#cb10-171"></a><span class="in">## Challenge</span></span>
-<span id="cb10-172"><a href="#cb10-172"></a></span>
-<span id="cb10-173"><a href="#cb10-173"></a><span class="in">Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span></span>
-<span id="cb10-174"><a href="#cb10-174"></a></span>
-<span id="cb10-175"><a href="#cb10-175"></a><span class="in">:::::::::::::::::::: solution</span></span>
-<span id="cb10-176"><a href="#cb10-176"></a></span>
-<span id="cb10-177"><a href="#cb10-177"></a><span class="in">## School Solution</span></span>
-<span id="cb10-178"><a href="#cb10-178"></a></span>
-<span id="cb10-179"><a href="#cb10-179"></a><span class="in">```r</span></span>
-<span id="cb10-180"><a href="#cb10-180"></a><span class="in">paste(&quot;hello&quot;, &quot;there&quot;)</span></span>
-<span id="cb10-181"><a href="#cb10-181"></a><span class="in">```</span></span>
-<span id="cb10-182"><a href="#cb10-182"></a></span>
-<span id="cb10-183"><a href="#cb10-183"></a><span class="in">```output</span></span>
-<span id="cb10-184"><a href="#cb10-184"></a><span class="in">&quot;hello there&quot;</span></span>
-<span id="cb10-185"><a href="#cb10-185"></a><span class="in">```</span></span>
-<span id="cb10-186"><a href="#cb10-186"></a>::::::::::::::::::::</span>
-<span id="cb10-187"><a href="#cb10-187"></a></span>
-<span id="cb10-188"><a href="#cb10-188"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
-<span id="cb10-189"><a href="#cb10-189"></a></span>
-<span id="cb10-190"><a href="#cb10-190"></a>:::::::::::::::::::: solution</span>
-<span id="cb10-191"><a href="#cb10-191"></a></span>
-<span id="cb10-192"><a href="#cb10-192"></a><span class="fu">## Fast Solution</span></span>
-<span id="cb10-193"><a href="#cb10-193"></a></span>
-<span id="cb10-194"><a href="#cb10-194"></a><span class="in">```r</span></span>
-<span id="cb10-195"><a href="#cb10-195"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
-<span id="cb10-196"><a href="#cb10-196"></a><span class="in">```</span></span>
-<span id="cb10-197"><a href="#cb10-197"></a></span>
-<span id="cb10-198"><a href="#cb10-198"></a><span class="in">```output</span></span>
-<span id="cb10-199"><a href="#cb10-199"></a><span class="in">&quot;monorail&quot;</span></span>
-<span id="cb10-200"><a href="#cb10-200"></a><span class="in">```</span></span>
-<span id="cb10-201"><a href="#cb10-201"></a>::::::::::::::::::::</span>
-<span id="cb10-202"><a href="#cb10-202"></a>:::::::::::::::::::::::::::::::</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb11-1"><a href="#cb11-1"></a><span class="co">---</span></span>
+<span id="cb11-2"><a href="#cb11-2"></a><span class="an">sandpaper-digest:</span><span class="co"> 59512942bc76afd89a40d70f108f8ebe</span></span>
+<span id="cb11-3"><a href="#cb11-3"></a><span class="an">title:</span><span class="co"> &quot;Results for wonor45&quot;</span></span>
+<span id="cb11-4"><a href="#cb11-4"></a><span class="co">---</span></span>
+<span id="cb11-5"><a href="#cb11-5"></a></span>
+<span id="cb11-6"><a href="#cb11-6"></a><span class="fu"># Challenge: Simple Nested</span></span>
+<span id="cb11-7"><a href="#cb11-7"></a></span>
+<span id="cb11-8"><a href="#cb11-8"></a>Please write your answers for the simple nested challenge below</span>
+<span id="cb11-9"><a href="#cb11-9"></a></span>
+<span id="cb11-10"><a href="#cb11-10"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
+<span id="cb11-11"><a href="#cb11-11"></a></span>
+<span id="cb11-12"><a href="#cb11-12"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb11-13"><a href="#cb11-13"></a></span>
+<span id="cb11-14"><a href="#cb11-14"></a></span>
+<span id="cb11-15"><a href="#cb11-15"></a><span class="fu">## Challenge</span></span>
+<span id="cb11-16"><a href="#cb11-16"></a></span>
+<span id="cb11-17"><a href="#cb11-17"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
+<span id="cb11-18"><a href="#cb11-18"></a></span>
+<span id="cb11-19"><a href="#cb11-19"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb11-20"><a href="#cb11-20"></a></span>
+<span id="cb11-21"><a href="#cb11-21"></a><span class="fu">## Solution</span></span>
+<span id="cb11-22"><a href="#cb11-22"></a></span>
+<span id="cb11-23"><a href="#cb11-23"></a><span class="in">```r</span></span>
+<span id="cb11-24"><a href="#cb11-24"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb11-25"><a href="#cb11-25"></a><span class="in">```</span></span>
+<span id="cb11-26"><a href="#cb11-26"></a></span>
+<span id="cb11-27"><a href="#cb11-27"></a><span class="in">```output</span></span>
+<span id="cb11-28"><a href="#cb11-28"></a><span class="in">&quot;hello there&quot;</span></span>
+<span id="cb11-29"><a href="#cb11-29"></a><span class="in">```</span></span>
+<span id="cb11-30"><a href="#cb11-30"></a></span>
+<span id="cb11-31"><a href="#cb11-31"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb11-32"><a href="#cb11-32"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb11-33"><a href="#cb11-33"></a></span>
+<span id="cb11-34"><a href="#cb11-34"></a></span>
+<span id="cb11-35"><a href="#cb11-35"></a></span>
+<span id="cb11-36"><a href="#cb11-36"></a><span class="fu">## {dovetail}</span></span>
+<span id="cb11-37"><a href="#cb11-37"></a></span>
+<span id="cb11-38"><a href="#cb11-38"></a></span>
+<span id="cb11-39"><a href="#cb11-39"></a></span>
+<span id="cb11-40"><a href="#cb11-40"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb11-41"><a href="#cb11-41"></a></span>
+<span id="cb11-42"><a href="#cb11-42"></a><span class="fu">## Challenge</span></span>
+<span id="cb11-43"><a href="#cb11-43"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
+<span id="cb11-44"><a href="#cb11-44"></a></span>
+<span id="cb11-45"><a href="#cb11-45"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb11-46"><a href="#cb11-46"></a></span>
+<span id="cb11-47"><a href="#cb11-47"></a><span class="fu">## Solution</span></span>
+<span id="cb11-48"><a href="#cb11-48"></a> </span>
+<span id="cb11-49"><a href="#cb11-49"></a><span class="in">```r</span></span>
+<span id="cb11-50"><a href="#cb11-50"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb11-51"><a href="#cb11-51"></a><span class="in">```</span></span>
+<span id="cb11-52"><a href="#cb11-52"></a></span>
+<span id="cb11-53"><a href="#cb11-53"></a><span class="in">```output</span></span>
+<span id="cb11-54"><a href="#cb11-54"></a><span class="in">&quot;hello there&quot;</span></span>
+<span id="cb11-55"><a href="#cb11-55"></a><span class="in">```</span></span>
+<span id="cb11-56"><a href="#cb11-56"></a></span>
+<span id="cb11-57"><a href="#cb11-57"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb11-58"><a href="#cb11-58"></a></span>
+<span id="cb11-59"><a href="#cb11-59"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb11-60"><a href="#cb11-60"></a></span>
+<span id="cb11-61"><a href="#cb11-61"></a><span class="fu">## pandoc fenced div</span></span>
+<span id="cb11-62"><a href="#cb11-62"></a></span>
+<span id="cb11-63"><a href="#cb11-63"></a>::::::::::::::::::::::::::::::: challenge</span>
+<span id="cb11-64"><a href="#cb11-64"></a></span>
+<span id="cb11-65"><a href="#cb11-65"></a><span class="fu">## Challenge</span></span>
+<span id="cb11-66"><a href="#cb11-66"></a></span>
+<span id="cb11-67"><a href="#cb11-67"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
+<span id="cb11-68"><a href="#cb11-68"></a></span>
+<span id="cb11-69"><a href="#cb11-69"></a>:::::::::::::::::::: solution</span>
+<span id="cb11-70"><a href="#cb11-70"></a></span>
+<span id="cb11-71"><a href="#cb11-71"></a><span class="fu">## Solution</span></span>
+<span id="cb11-72"><a href="#cb11-72"></a></span>
+<span id="cb11-73"><a href="#cb11-73"></a><span class="in">```r</span></span>
+<span id="cb11-74"><a href="#cb11-74"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb11-75"><a href="#cb11-75"></a><span class="in">```</span></span>
+<span id="cb11-76"><a href="#cb11-76"></a></span>
+<span id="cb11-77"><a href="#cb11-77"></a><span class="in">```output</span></span>
+<span id="cb11-78"><a href="#cb11-78"></a><span class="in">&quot;hello there&quot;</span></span>
+<span id="cb11-79"><a href="#cb11-79"></a><span class="in">```</span></span>
+<span id="cb11-80"><a href="#cb11-80"></a>::::::::::::::::::::</span>
+<span id="cb11-81"><a href="#cb11-81"></a>:::::::::::::::::::::::::::::::</span>
+<span id="cb11-82"><a href="#cb11-82"></a></span>
+<span id="cb11-83"><a href="#cb11-83"></a>--------------------------------------------------------------------------------</span>
+<span id="cb11-84"><a href="#cb11-84"></a></span>
+<span id="cb11-85"><a href="#cb11-85"></a><span class="fu">## HTML `&lt;div&gt;`</span></span>
+<span id="cb11-86"><a href="#cb11-86"></a></span>
+<span id="cb11-87"><a href="#cb11-87"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb11-88"><a href="#cb11-88"></a></span>
+<span id="cb11-89"><a href="#cb11-89"></a></span>
+<span id="cb11-90"><a href="#cb11-90"></a><span class="fu">## Challenge</span></span>
+<span id="cb11-91"><a href="#cb11-91"></a></span>
+<span id="cb11-92"><a href="#cb11-92"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
+<span id="cb11-93"><a href="#cb11-93"></a></span>
+<span id="cb11-94"><a href="#cb11-94"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb11-95"><a href="#cb11-95"></a></span>
+<span id="cb11-96"><a href="#cb11-96"></a><span class="fu">## School Solution</span></span>
+<span id="cb11-97"><a href="#cb11-97"></a></span>
+<span id="cb11-98"><a href="#cb11-98"></a><span class="in">```r</span></span>
+<span id="cb11-99"><a href="#cb11-99"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb11-100"><a href="#cb11-100"></a><span class="in">```</span></span>
+<span id="cb11-101"><a href="#cb11-101"></a></span>
+<span id="cb11-102"><a href="#cb11-102"></a><span class="in">```output</span></span>
+<span id="cb11-103"><a href="#cb11-103"></a><span class="in">&quot;hello there&quot;</span></span>
+<span id="cb11-104"><a href="#cb11-104"></a><span class="in">```</span></span>
+<span id="cb11-105"><a href="#cb11-105"></a></span>
+<span id="cb11-106"><a href="#cb11-106"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb11-107"><a href="#cb11-107"></a></span>
+<span id="cb11-108"><a href="#cb11-108"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
+<span id="cb11-109"><a href="#cb11-109"></a></span>
+<span id="cb11-110"><a href="#cb11-110"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb11-111"><a href="#cb11-111"></a></span>
+<span id="cb11-112"><a href="#cb11-112"></a><span class="fu">## Fast Solution</span></span>
+<span id="cb11-113"><a href="#cb11-113"></a></span>
+<span id="cb11-114"><a href="#cb11-114"></a><span class="in">```r</span></span>
+<span id="cb11-115"><a href="#cb11-115"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
+<span id="cb11-116"><a href="#cb11-116"></a><span class="in">```</span></span>
+<span id="cb11-117"><a href="#cb11-117"></a></span>
+<span id="cb11-118"><a href="#cb11-118"></a><span class="in">```output</span></span>
+<span id="cb11-119"><a href="#cb11-119"></a><span class="in">&quot;monorail&quot;</span></span>
+<span id="cb11-120"><a href="#cb11-120"></a><span class="in">```</span></span>
+<span id="cb11-121"><a href="#cb11-121"></a></span>
+<span id="cb11-122"><a href="#cb11-122"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb11-123"><a href="#cb11-123"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb11-124"><a href="#cb11-124"></a></span>
+<span id="cb11-125"><a href="#cb11-125"></a></span>
+<span id="cb11-126"><a href="#cb11-126"></a><span class="fu">## {dovetail}</span></span>
+<span id="cb11-127"><a href="#cb11-127"></a></span>
+<span id="cb11-128"><a href="#cb11-128"></a></span>
+<span id="cb11-129"><a href="#cb11-129"></a></span>
+<span id="cb11-130"><a href="#cb11-130"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;challenge&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb11-131"><a href="#cb11-131"></a></span>
+<span id="cb11-132"><a href="#cb11-132"></a><span class="fu">## Challenge</span></span>
+<span id="cb11-133"><a href="#cb11-133"></a>Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span>
+<span id="cb11-134"><a href="#cb11-134"></a></span>
+<span id="cb11-135"><a href="#cb11-135"></a><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&#39;solution&#39;</span><span class="ot"> markdown=</span><span class="st">&#39;1&#39;</span><span class="kw">&gt;</span></span>
+<span id="cb11-136"><a href="#cb11-136"></a></span>
+<span id="cb11-137"><a href="#cb11-137"></a><span class="fu">## School Solution</span></span>
+<span id="cb11-138"><a href="#cb11-138"></a> </span>
+<span id="cb11-139"><a href="#cb11-139"></a><span class="in">```r</span></span>
+<span id="cb11-140"><a href="#cb11-140"></a><span class="kw">paste</span>(<span class="st">&quot;hello&quot;</span>, <span class="st">&quot;there&quot;</span>)</span>
+<span id="cb11-141"><a href="#cb11-141"></a><span class="in">```</span></span>
+<span id="cb11-142"><a href="#cb11-142"></a></span>
+<span id="cb11-143"><a href="#cb11-143"></a><span class="in">```output</span></span>
+<span id="cb11-144"><a href="#cb11-144"></a><span class="in">&quot;hello there&quot;</span></span>
+<span id="cb11-145"><a href="#cb11-145"></a><span class="in"># ```</span></span>
+<span id="cb11-146"><a href="#cb11-146"></a></span>
+<span id="cb11-147"><a href="#cb11-147"></a><span class="in">Great! Now use `paste0()` to paste together “mono” and “rail” to make “monorail”</span></span>
+<span id="cb11-148"><a href="#cb11-148"></a></span>
+<span id="cb11-149"><a href="#cb11-149"></a><span class="in">&lt;div class=&#39;solution&#39; markdown=&#39;1&#39;&gt;</span></span>
+<span id="cb11-150"><a href="#cb11-150"></a></span>
+<span id="cb11-151"><a href="#cb11-151"></a><span class="in">## Fast Solution</span></span>
+<span id="cb11-152"><a href="#cb11-152"></a><span class="in"> </span></span>
+<span id="cb11-153"><a href="#cb11-153"></a><span class="in">```r</span></span>
+<span id="cb11-154"><a href="#cb11-154"></a><span class="in">paste0(&quot;mono&quot;, &quot;rail&quot;)</span></span>
+<span id="cb11-155"><a href="#cb11-155"></a><span class="in">```</span></span>
+<span id="cb11-156"><a href="#cb11-156"></a></span>
+<span id="cb11-157"><a href="#cb11-157"></a><span class="in">```output</span></span>
+<span id="cb11-158"><a href="#cb11-158"></a><span class="in">&quot;monorail&quot;</span></span>
+<span id="cb11-159"><a href="#cb11-159"></a><span class="in"># ```</span></span>
+<span id="cb11-160"><a href="#cb11-160"></a></span>
+<span id="cb11-161"><a href="#cb11-161"></a><span class="in">&lt;/div&gt;</span></span>
+<span id="cb11-162"><a href="#cb11-162"></a></span>
+<span id="cb11-163"><a href="#cb11-163"></a><span class="in">&lt;/div&gt;</span></span>
+<span id="cb11-164"><a href="#cb11-164"></a></span>
+<span id="cb11-165"><a href="#cb11-165"></a><span class="in">&lt;/div&gt;</span></span>
+<span id="cb11-166"><a href="#cb11-166"></a></span>
+<span id="cb11-167"><a href="#cb11-167"></a><span class="in">## pandoc fenced div</span></span>
+<span id="cb11-168"><a href="#cb11-168"></a></span>
+<span id="cb11-169"><a href="#cb11-169"></a><span class="in">::::::::::::::::::::::::::::::: challenge</span></span>
+<span id="cb11-170"><a href="#cb11-170"></a></span>
+<span id="cb11-171"><a href="#cb11-171"></a><span class="in">## Challenge</span></span>
+<span id="cb11-172"><a href="#cb11-172"></a></span>
+<span id="cb11-173"><a href="#cb11-173"></a><span class="in">Use the `paste()`` function to concatenate the strings “hello” and “there” in R.</span></span>
+<span id="cb11-174"><a href="#cb11-174"></a></span>
+<span id="cb11-175"><a href="#cb11-175"></a><span class="in">:::::::::::::::::::: solution</span></span>
+<span id="cb11-176"><a href="#cb11-176"></a></span>
+<span id="cb11-177"><a href="#cb11-177"></a><span class="in">## School Solution</span></span>
+<span id="cb11-178"><a href="#cb11-178"></a></span>
+<span id="cb11-179"><a href="#cb11-179"></a><span class="in">```r</span></span>
+<span id="cb11-180"><a href="#cb11-180"></a><span class="in">paste(&quot;hello&quot;, &quot;there&quot;)</span></span>
+<span id="cb11-181"><a href="#cb11-181"></a><span class="in">```</span></span>
+<span id="cb11-182"><a href="#cb11-182"></a></span>
+<span id="cb11-183"><a href="#cb11-183"></a><span class="in">```output</span></span>
+<span id="cb11-184"><a href="#cb11-184"></a><span class="in">&quot;hello there&quot;</span></span>
+<span id="cb11-185"><a href="#cb11-185"></a><span class="in">```</span></span>
+<span id="cb11-186"><a href="#cb11-186"></a>::::::::::::::::::::</span>
+<span id="cb11-187"><a href="#cb11-187"></a></span>
+<span id="cb11-188"><a href="#cb11-188"></a>Great! Now use <span class="in">`paste0()`</span> to paste together “mono” and “rail” to make “monorail”</span>
+<span id="cb11-189"><a href="#cb11-189"></a></span>
+<span id="cb11-190"><a href="#cb11-190"></a>:::::::::::::::::::: solution</span>
+<span id="cb11-191"><a href="#cb11-191"></a></span>
+<span id="cb11-192"><a href="#cb11-192"></a><span class="fu">## Fast Solution</span></span>
+<span id="cb11-193"><a href="#cb11-193"></a></span>
+<span id="cb11-194"><a href="#cb11-194"></a><span class="in">```r</span></span>
+<span id="cb11-195"><a href="#cb11-195"></a><span class="kw">paste0</span>(<span class="st">&quot;mono&quot;</span>, <span class="st">&quot;rail&quot;</span>)</span>
+<span id="cb11-196"><a href="#cb11-196"></a><span class="in">```</span></span>
+<span id="cb11-197"><a href="#cb11-197"></a></span>
+<span id="cb11-198"><a href="#cb11-198"></a><span class="in">```output</span></span>
+<span id="cb11-199"><a href="#cb11-199"></a><span class="in">&quot;monorail&quot;</span></span>
+<span id="cb11-200"><a href="#cb11-200"></a><span class="in">```</span></span>
+<span id="cb11-201"><a href="#cb11-201"></a>::::::::::::::::::::</span>
+<span id="cb11-202"><a href="#cb11-202"></a>:::::::::::::::::::::::::::::::</span></code></pre></div>
 </details>
 </div>
 </div>
