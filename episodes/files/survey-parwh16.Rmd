@@ -1,0 +1,163 @@
+---
+title: "Results for parwh16"
+---
+
+<!-- ZNK Note: all of the header tags were increased by one, I decreased them -->
+```{r setup, include = FALSE}
+library('dovetail')
+# included so that dovetail can work
+```
+
+
+## HTML `<div>`
+
+<div class = "challenge">
+  ### Challenge
+  Use the `paste()` function to concatenate the strings “hello” and “there”.
+  <div class = "solution>
+  ### Solution
+  ```r
+  paste("Hello", "there!")
+  ```
+  
+  ```output
+  "Hello there!
+  ```
+  </div>
+</div>
+
+## {dovetail}
+
+```{challenge}
+#` ### Challenge
+#
+#` Use the `paste()` function to concatenate the strings “hello” and “there”.
+#`
+#` @solution Solution
+#`
+#` ```r
+paste("Hello", "there!")
+#` ```
+#`
+#` ```output
+"Hello there!"
+#`
+```
+
+
+## pandoc fenced div
+
+::::::::::::::::::::::::::::::::::::::::challenge
+### Challenge
+Use the `paste()` function to concatenate the strings “hello” and “there”.
+
+::::::::::::::::::::::::::::::::solution
+### Solution
+```r
+paste("Hello", "there!")
+```
+
+```output
+"Hello there!
+```
+::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::
+
+--------------------------------------------------------------------------------
+
+## HTML `<div>`
+
+<div class = "challenge">
+  ### Challenge
+  Use the `paste()` function to concatenate the strings “hello” and “there”.
+
+  <div class = "solution>
+  ### School Solution
+  ```r
+  paste("Hello", "there!")
+  ```
+
+  ```output
+  "Hello there!
+  ```
+  </div>
+
+  Great! Now use `paste0()` to paste together “mono” and “rail” to make
+  “monorail”
+
+  <div class = "solution>
+  ### Fast Solution
+  ```r
+  paste0("mono", "rail")
+  ```
+
+  ```output
+  monorail
+  ```
+  </div>
+
+</div>
+
+## {dovetail}
+
+```{challenge}
+#` ### Challenge
+#
+#` Use the `paste()` function to concatenate the strings “hello” and “there”.
+#`
+#` @solution School Solution
+#`
+#` ```r
+paste("Hello", "there!")
+#` ```
+#`
+#` ```output
+"Hello there!"
+#`
+#` Great! Now use `paste0()` to paste together “mono” and “rail” to make
+#` "monorail”
+#`
+#` @solution Fast Solution
+#`
+#` ```r
+paste0("mono", "rail")
+#` ```
+
+#` ```output
+monorail
+#` ```
+```
+
+
+## pandoc fenced div
+
+::::::::::::::::::::::::::::::::::::::::challenge
+### Challenge
+Use the `paste()` function to concatenate the strings “hello” and “there”.
+
+::::::::::::::::::::::::::::::::solution
+### School Solution
+```r
+paste("Hello", "there!")
+```
+
+```output
+"Hello there!
+```
+::::::::::::::::::::::::::::::::
+
+Great! Now use `paste0()` to paste together “mono” and “rail” to make
+“monorail”
+
+::::::::::::::::::::::::::::::::solution
+### Fast Solution
+```r
+paste0("Mono", "rail")
+```
+
+```output
+Monorail
+```
+::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::
+
